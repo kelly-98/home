@@ -1,0 +1,338 @@
+.elementor-kit-17 {
+  --e-global-color-primary: #000000;
+  --e-global-color-secondary: #2e2e2e;
+  --e-global-color-text: #ffffff;
+  --e-global-color-accent: #ffffff1a;
+  --e-global-color-9a67fe8: #ffffff80;
+  --e-global-color-e1042f9: #ffffff00;
+  --e-global-color-85a1374: #000000;
+  --e-global-typography-primary-font-family: "Zen Dots";
+  --e-global-typography-primary-font-size: 50px;
+  --e-global-typography-primary-font-weight: 400;
+  --e-global-typography-primary-text-transform: none;
+  --e-global-typography-primary-line-height: 1.2em;
+  --e-global-typography-secondary-font-family: "Zen Dots";
+  --e-global-typography-secondary-font-size: 15px;
+  --e-global-typography-secondary-font-weight: 400;
+  --e-global-typography-secondary-text-transform: none;
+  --e-global-typography-secondary-line-height: 1.2em;
+  --e-global-typography-text-font-family: "Readex Pro";
+  --e-global-typography-text-font-size: 14px;
+  --e-global-typography-text-font-weight: 300;
+  --e-global-typography-text-text-transform: none;
+  --e-global-typography-text-line-height: 1.4em;
+  --e-global-typography-accent-font-family: "Zen Dots";
+  --e-global-typography-accent-font-size: 20px;
+  --e-global-typography-accent-font-weight: 500;
+  --e-global-typography-accent-text-transform: none;
+  --e-global-typography-accent-line-height: 1.4em;
+  --e-global-typography-7eeac35-font-family: "Zen Dots";
+  --e-global-typography-7eeac35-font-size: 167px;
+  --e-global-typography-7eeac35-font-weight: 400;
+  --e-global-typography-7eeac35-text-transform: none;
+  --e-global-typography-7eeac35-line-height: 1.2em;
+  --e-global-typography-2c0022a-font-family: "Zen Dots";
+  --e-global-typography-2c0022a-font-size: 60px;
+  --e-global-typography-2c0022a-font-weight: 500;
+  --e-global-typography-2c0022a-text-transform: none;
+  --e-global-typography-2c0022a-line-height: 1.2em;
+  --e-global-typography-33f2cb4-font-family: "Zen Dots";
+  --e-global-typography-33f2cb4-font-size: 40px;
+  --e-global-typography-33f2cb4-font-weight: 500;
+  --e-global-typography-33f2cb4-text-transform: none;
+  --e-global-typography-33f2cb4-line-height: 1.2em;
+  --e-global-typography-abbfc70-font-family: "Zen Dots";
+  --e-global-typography-abbfc70-font-size: 30px;
+  --e-global-typography-abbfc70-font-weight: 500;
+  --e-global-typography-abbfc70-text-transform: none;
+  --e-global-typography-abbfc70-line-height: 1.2em;
+  --e-global-typography-fb37249-font-family: "Zen Dots";
+  --e-global-typography-fb37249-font-size: 26px;
+  --e-global-typography-fb37249-font-weight: 400;
+  --e-global-typography-fb37249-text-transform: none;
+  --e-global-typography-fb37249-line-height: 1.2em;
+  --e-global-typography-de3af14-font-family: "Zen Dots";
+  --e-global-typography-de3af14-font-size: 18px;
+  --e-global-typography-de3af14-font-weight: 400;
+  --e-global-typography-de3af14-text-transform: none;
+  --e-global-typography-de3af14-line-height: 1.4em;
+  --e-global-typography-43dfd2a-font-family: "Zen Dots";
+  --e-global-typography-43dfd2a-font-size: 14px;
+  --e-global-typography-43dfd2a-font-weight: 400;
+  --e-global-typography-43dfd2a-text-transform: none;
+  --e-global-typography-43dfd2a-line-height: 1.2em;
+  --e-global-typography-6856b85-font-family: "Zen Dots";
+  --e-global-typography-6856b85-font-size: 13px;
+  --e-global-typography-6856b85-font-weight: 400;
+  --e-global-typography-6856b85-text-transform: none;
+  --e-global-typography-6856b85-line-height: 1.23em;
+  --e-global-typography-0d670eb-font-family: "Zen Dots";
+  --e-global-typography-0d670eb-font-size: 12px;
+  --e-global-typography-0d670eb-font-weight: 400;
+  --e-global-typography-0d670eb-text-transform: none;
+  --e-global-typography-0d670eb-line-height: 1.1667em;
+  --e-global-typography-fbbd795-font-family: "Readex Pro";
+  --e-global-typography-fbbd795-font-size: 26px;
+  --e-global-typography-fbbd795-font-weight: 300;
+  --e-global-typography-fbbd795-text-transform: none;
+  --e-global-typography-fbbd795-line-height: 1.4em;
+  --e-global-typography-2049ba9-font-family: "Readex Pro";
+  --e-global-typography-2049ba9-font-size: 16px;
+  --e-global-typography-2049ba9-font-weight: 300;
+  --e-global-typography-2049ba9-text-transform: none;
+  --e-global-typography-2049ba9-line-height: 1.4em;
+  --e-global-typography-b3c3221-font-family: "Readex Pro";
+  --e-global-typography-b3c3221-font-size: 14px;
+  --e-global-typography-b3c3221-font-weight: 700;
+  --e-global-typography-b3c3221-text-transform: none;
+  --e-global-typography-b3c3221-line-height: 1.4em;
+  --e-global-typography-b4d3113-font-family: "Readex Pro";
+  --e-global-typography-b4d3113-font-size: 12px;
+  --e-global-typography-b4d3113-font-weight: 300;
+  --e-global-typography-b4d3113-text-transform: none;
+  --e-global-typography-b4d3113-line-height: 1.4em;
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  text-transform: var(--e-global-typography-text-text-transform);
+  line-height: var(--e-global-typography-text-line-height);
+  background-color: #000000;
+  background-image: url("https://genesisswap.app/wp-content/uploads/2023/06/bg-mask-2.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.elementor-kit-17 p {
+  margin-bottom: 18px;
+}
+.elementor-kit-17 a {
+  color: var(--e-global-color-text);
+}
+.elementor-kit-17 a:hover {
+  color: var(--e-global-color-secondary);
+}
+.elementor-kit-17 h1 {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-2c0022a-font-family), Sans-serif;
+  font-size: var(--e-global-typography-2c0022a-font-size);
+  font-weight: var(--e-global-typography-2c0022a-font-weight);
+  text-transform: var(--e-global-typography-2c0022a-text-transform);
+  line-height: var(--e-global-typography-2c0022a-line-height);
+  letter-spacing: var(--e-global-typography-2c0022a-letter-spacing);
+  word-spacing: var(--e-global-typography-2c0022a-word-spacing);
+}
+.elementor-kit-17 h2 {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  text-transform: var(--e-global-typography-primary-text-transform);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+.elementor-kit-17 h3 {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-33f2cb4-font-family), Sans-serif;
+  font-size: var(--e-global-typography-33f2cb4-font-size);
+  font-weight: var(--e-global-typography-33f2cb4-font-weight);
+  text-transform: var(--e-global-typography-33f2cb4-text-transform);
+  line-height: var(--e-global-typography-33f2cb4-line-height);
+  letter-spacing: var(--e-global-typography-33f2cb4-letter-spacing);
+  word-spacing: var(--e-global-typography-33f2cb4-word-spacing);
+}
+.elementor-kit-17 h4 {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-abbfc70-font-family), Sans-serif;
+  font-size: var(--e-global-typography-abbfc70-font-size);
+  font-weight: var(--e-global-typography-abbfc70-font-weight);
+  text-transform: var(--e-global-typography-abbfc70-text-transform);
+  line-height: var(--e-global-typography-abbfc70-line-height);
+  letter-spacing: var(--e-global-typography-abbfc70-letter-spacing);
+  word-spacing: var(--e-global-typography-abbfc70-word-spacing);
+}
+.elementor-kit-17 h5 {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+  font-size: var(--e-global-typography-accent-font-size);
+  font-weight: var(--e-global-typography-accent-font-weight);
+  text-transform: var(--e-global-typography-accent-text-transform);
+  line-height: var(--e-global-typography-accent-line-height);
+}
+.elementor-kit-17 h6 {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-secondary-font-size);
+  font-weight: var(--e-global-typography-secondary-font-weight);
+  text-transform: var(--e-global-typography-secondary-text-transform);
+  line-height: var(--e-global-typography-secondary-line-height);
+}
+.elementor-kit-17 button,
+.elementor-kit-17 input[type="button"],
+.elementor-kit-17 input[type="submit"],
+.elementor-kit-17 .elementor-button {
+  font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-secondary-font-size);
+  font-weight: var(--e-global-typography-secondary-font-weight);
+  text-transform: var(--e-global-typography-secondary-text-transform);
+  line-height: var(--e-global-typography-secondary-line-height);
+  /* background-color: var(--e-global-color-secondary); */
+  background: linear-gradient(180deg, #00fdfd 0%, #d1f000 100%);
+  color: #000;
+  border-radius: 10px 10px 10px 10px;
+  padding: 19px 58px 19px 58px;
+}
+.elementor-kit-17 button:hover,
+.elementor-kit-17 button:focus,
+.elementor-kit-17 input[type="button"]:hover,
+.elementor-kit-17 input[type="button"]:focus,
+.elementor-kit-17 input[type="submit"]:hover,
+.elementor-kit-17 input[type="submit"]:focus,
+.elementor-kit-17 .elementor-button:hover,
+.elementor-kit-17 .elementor-button:focus {
+  color: var(--e-global-color-text);
+}
+.elementor-kit-17 img {
+  border-radius: 20px 20px 20px 20px;
+}
+.elementor-section.elementor-section-boxed > .elementor-container {
+  max-width: 1140px;
+}
+.e-con {
+  --container-max-width: 1140px;
+}
+.elementor-widget:not(:last-child) {
+  margin-bottom: 0px;
+}
+.elementor-element {
+  --widgets-spacing: 0px;
+}
+ {
+}
+h1.entry-title {
+  display: var(--page-title-display);
+}
+.elementor-kit-17 e-page-transition {
+  background-color: #ffbc7d;
+}
+.site-header {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+@media (max-width: 1024px) {
+  .elementor-kit-17 {
+    --e-global-typography-primary-font-size: 30px;
+    --e-global-typography-accent-font-size: 16px;
+    --e-global-typography-7eeac35-font-size: 90px;
+    --e-global-typography-2c0022a-font-size: 45px;
+    --e-global-typography-2c0022a-line-height: 1.3em;
+    --e-global-typography-33f2cb4-font-size: 32px;
+    --e-global-typography-abbfc70-font-size: 25px;
+    --e-global-typography-fb37249-font-size: 20px;
+    --e-global-typography-fbbd795-font-size: 20px;
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+  .elementor-kit-17 h1 {
+    font-size: var(--e-global-typography-2c0022a-font-size);
+    line-height: var(--e-global-typography-2c0022a-line-height);
+    letter-spacing: var(--e-global-typography-2c0022a-letter-spacing);
+    word-spacing: var(--e-global-typography-2c0022a-word-spacing);
+  }
+  .elementor-kit-17 h2 {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+  .elementor-kit-17 h3 {
+    font-size: var(--e-global-typography-33f2cb4-font-size);
+    line-height: var(--e-global-typography-33f2cb4-line-height);
+    letter-spacing: var(--e-global-typography-33f2cb4-letter-spacing);
+    word-spacing: var(--e-global-typography-33f2cb4-word-spacing);
+  }
+  .elementor-kit-17 h4 {
+    font-size: var(--e-global-typography-abbfc70-font-size);
+    line-height: var(--e-global-typography-abbfc70-line-height);
+    letter-spacing: var(--e-global-typography-abbfc70-letter-spacing);
+    word-spacing: var(--e-global-typography-abbfc70-word-spacing);
+  }
+  .elementor-kit-17 h5 {
+    font-size: var(--e-global-typography-accent-font-size);
+    line-height: var(--e-global-typography-accent-line-height);
+  }
+  .elementor-kit-17 h6 {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+  .elementor-kit-17 button,
+  .elementor-kit-17 input[type="button"],
+  .elementor-kit-17 input[type="submit"],
+  .elementor-kit-17 .elementor-button {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+    padding: 17px 35px 17px 35px;
+  }
+  .elementor-kit-17 img {
+    border-radius: 10px 10px 10px 10px;
+  }
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1024px;
+  }
+  .e-con {
+    --container-max-width: 1024px;
+  }
+}
+@media (max-width: 767px) {
+  .elementor-kit-17 {
+    --e-global-typography-primary-font-size: 28px;
+    --e-global-typography-primary-line-height: 1.3em;
+    --e-global-typography-accent-font-size: 18px;
+    --e-global-typography-7eeac35-font-size: 50px;
+    --e-global-typography-2c0022a-font-size: 32px;
+    --e-global-typography-abbfc70-font-size: 20px;
+    --e-global-typography-fbbd795-font-size: 17px;
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+  .elementor-kit-17 h1 {
+    font-size: var(--e-global-typography-2c0022a-font-size);
+    line-height: var(--e-global-typography-2c0022a-line-height);
+    letter-spacing: var(--e-global-typography-2c0022a-letter-spacing);
+    word-spacing: var(--e-global-typography-2c0022a-word-spacing);
+  }
+  .elementor-kit-17 h2 {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+  .elementor-kit-17 h3 {
+    font-size: var(--e-global-typography-33f2cb4-font-size);
+    line-height: var(--e-global-typography-33f2cb4-line-height);
+    letter-spacing: var(--e-global-typography-33f2cb4-letter-spacing);
+    word-spacing: var(--e-global-typography-33f2cb4-word-spacing);
+  }
+  .elementor-kit-17 h4 {
+    font-size: var(--e-global-typography-abbfc70-font-size);
+    line-height: var(--e-global-typography-abbfc70-line-height);
+    letter-spacing: var(--e-global-typography-abbfc70-letter-spacing);
+    word-spacing: var(--e-global-typography-abbfc70-word-spacing);
+  }
+  .elementor-kit-17 h5 {
+    font-size: var(--e-global-typography-accent-font-size);
+    line-height: var(--e-global-typography-accent-line-height);
+  }
+  .elementor-kit-17 h6 {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+  .elementor-kit-17 button,
+  .elementor-kit-17 input[type="button"],
+  .elementor-kit-17 input[type="submit"],
+  .elementor-kit-17 .elementor-button {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 767px;
+  }
+  .e-con {
+    --container-max-width: 767px;
+  }
+}

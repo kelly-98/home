@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LuckyRats - Play and earn money with your hands!</title>
+    <meta
+      name="description"
+      content='The first MMORPG Game based on Blockchain
+    uses your skills to win. Alone, against the monsters, even bet everything to
+    fighting other monster hunters to win the battle and plunder their fortune.
+    "Win eat it all, fall back to nothing"'
+    />
+    <link rel="icon" type="image/x-icon" href="./fav.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <ul id="menu-toggle" class="header-menu-toggle">
+        <li>
+          <a href="#video" class="header-menu-link">Gameplay</a>
+        </li>
+        <li>
+          <a href="#challenge" class="header-menu-link">Challenges</a>
+        </li>
+        <li>
+          <a href="#roadmap" class="header-menu-link">Roadmap</a>
+        </li>
+        <li>
+          <a class="header-menu-link">Whitepaper</a>
+        </li>
+        <li>
+          <a
+            href="https://t.me/LuckyRats_EN"
+            target="_blank"
+            class="header-menu-link"
+            >Join Telegram</a
+          >
+        </li>
+      </ul>
+      <div class="bg-img">
+        <header id="header" class="header">
+          <div class="container header-wrapper">
+            <ul class="header-menu">
+              <li class="header-menu-item">
+                <a href="#video" class="header-menu-link">Gameplay</a>
+              </li>
+              <li class="header-menu-item">
+                <a href="#challenge" class="header-menu-link">Challenges</a>
+              </li>
+              <li class="header-menu-item">
+                <a href="#roadmap" class="header-menu-link">Roadmap</a>
+              </li>
+              <li class="header-menu-item">
+                <a class="header-menu-link">Whitepaper</a>
+              </li>
+              <!-- <li class="header-menu-item">
+                <a
+                  href="https://t.me/LuckyRats_EN"
+                  target="_blank"
+                  class="header-menu-link"
+                  >Join Telegram</a
+                >
+              </li> -->
+            </ul>
+            <div class="header-right">
+              <!-- <ul class="header-socials">
+                <li class="header-social-item">
+                  <a href="https://twitter.com/luckrats_cn" target="_blank">
+                    <img src="./img/twitter.svg" />
+                  </a>
+                </li>
+                <li class="header-social-item">
+                  <a>
+                    <img src="./img/medium.svg" />
+                  </a>
+                </li>
+                <li class="header-social-item">
+                  <a href="https://t.me/LuckyRats_EN" target="_blank">
+                    <img src="./img/telegram.svg" />
+                  </a>
+                </li>
+              </ul> -->
+              <a
+                href="https://t.me/LuckyRats_EN"
+                target="_blank"
+                class="btn-primary"
+              >
+                <img src="./img/telegram.svg" />
+                <span>Join Telegram</span>
+                <img
+                  src="https://uploads-ssl.webflow.com/6238c68c9069966a6b114a4d/623ef8caa938417db26b161d_button__blur--pink.png"
+                  loading="eager"
+                  alt=""
+                  class="button__blur--pink"
+                />
+                <img
+                  src="https://uploads-ssl.webflow.com/6238c68c9069966a6b114a4d/623ef8cae3928a464ca63f6b_button__blur--purple.png"
+                  loading="eager"
+                  alt=""
+                  class="button__blur--purple"
+                />
+              </a>
+            </div>
+            <div id="menu-toggle-btn" class="header-menu-toggle-btn">
+              <img src="./img/toggle-menu.svg" />
+            </div>
+          </div>
+        </header>
+        <img class="img-top" src="./img/top.png" />
+        <div class="hero">
+          <div class="hero-logo">
+            <img src="./img/logoweb.png" />
+          </div>
+          <p class="hero-content">
+            The first MMORPG Game based on Blockchain uses your skills to win.
+            Play and earn money with your hands!
+          </p>
+          <button class="btn-primary btn-presale">
+            <span>Buy Presale</span>
+            <img
+              src="https://uploads-ssl.webflow.com/6238c68c9069966a6b114a4d/623ef8caa938417db26b161d_button__blur--pink.png"
+              loading="eager"
+              alt=""
+              class="button__blur--pink"
+            />
+            <img
+              src="https://uploads-ssl.webflow.com/6238c68c9069966a6b114a4d/623ef8cae3928a464ca63f6b_button__blur--purple.png"
+              loading="eager"
+              alt=""
+              class="button__blur--purple"
+            />
+          </button>
+        </div>
+        <img class="img-hero" src="./img/mid.png" />
+      </div>
+
+      <main>
+        <div class="container">
+          <!-- <section class="partner">
+            <p class="partner-text">
+              Created by Block Games in partnership with Estoty mobile games
+              development studio
+            </p>
+            <ul class="partner-imgs">
+              <li class="partner-img">
+                <a>
+                  <img src="./img/blockgame.svg" />
+                </a>
+              </li>
+              <li class="partner-img">
+                <img src="./img/x.svg" />
+              </li>
+              <li class="partner-img">
+                <a>
+                  <img src="./img/estory.png" />
+                </a>
+              </li>
+            </ul>
+          </section> -->
+
+          <!-- <section class="wellcome reveal">
+            <h2 class="text-title">WELCOME TO THE WORLD OF LUCKYRATS</h2>
+          </section> -->
+
+          <!-- <section id="video" class="video reveal">
+            <img src="./img/border-video.png" />
+            <video autoplay controls muted loop>
+              <source src="./video/GameofWar.mp4" type="video/mp4" />
+            </video>
+          </section> -->
+
+          <section class="slider reveal">
+            <div class="min-container">
+              <div class="slider-title">
+                <h2 class="text-title">
+                  FIGHT AGAINST THE MONSTERS INVADING THE PLANET
+                </h2>
+                <p class="text-desc">
+                  The mutant moles came up from underground wanting to invade
+                  the ground - where humans live. Let's transform into monster
+                  hunters and get rewards for the winners
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="large-container reveal">
+          <div class="slider-custom">
+            <ul class="owl-carousel owl-theme">
+              <div class="item">
+                <img src="./img/1.png" />
+              </div>
+              <div class="item">
+                <img src="./img/2.png" />
+              </div>
+              <div class="item">
+                <img src="./img/3.png" />
+              </div>
+              <div class="item">
+                <img src="./img/4.png" />
+              </div>
+              <div class="item">
+                <img src="./img/5.png" />
+              </div>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container">
+          <section class="battle reveal">
+            <div class="min-container">
+              <div class="battle-title">
+                <h2 class="text-title">Immerse yourself in battle</h2>
+                <p class="text-desc">
+                  Only through battle and win can you survive. Alone, against
+                  the monsters, even bet everything to fighting other monster
+                  hunters to win the battle and plunder their fortune. <br />
+                  "Win eat it all, fall back to nothing"
+                </p>
+              </div>
+            </div>
+            <ul class="battle-cards">
+              <li class="card">
+                <div class="card-img">
+                  <img src="./img/1x1.png" alt="card-1" />
+                </div>
+                <div class="card-content">
+                  <h4 class="card-title">PVE: Single Player</h4>
+                  <p class="card-desc text-desc">
+                    Battle monsters and build the experience and skills for
+                    combat with other hunters in the Arena Battle Mode.
+                  </p>
+                </div>
+              </li>
+              <li class="card">
+                <div class="card-img">
+                  <img src="./img/3x3.png" alt="card-2" />
+                </div>
+                <div class="card-content">
+                  <h4 class="card-title">PVP: Arena Battle Mode</h4>
+                  <p class="card-desc text-desc">
+                    Team up, bet to battle other players, enter tournaments and
+                    special events and win the most valuable rewards in the
+                    game. PVP Arena is where monster hunters become true
+                    Legendary!
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <section id="challenge" class="challenge reveal">
+            <div class="min-container">
+              <div class="challenge-title">
+                <h2 class="text-title">Compete in seasonal challenges</h2>
+                <p class="text-desc">
+                  Moles breed very strongly and evolve diversely. After each
+                  defeat, they reappear with a more advanced evolution. This is
+                  also an opportunity for monster hunters to participate in the
+                  killing and win rewards
+                </p>
+              </div>
+            </div>
+
+            <div class="challenge-card">
+              <div class="challenge-card-img">
+                <img src="./img/challenge-img.png" />
+              </div>
+              <p class="challenge-card-desc">
+                Every time a mutant mole species is completely destroyed, it is
+                time to prepare for a new hunting season. Very quickly followed
+                by the attack of mutant moles whose evolutionary with a higher
+                level, monster hunters have a chance to train and win bigger
+                rewards from hunting them. However, the war will also become
+                more and more brutal and bloody!
+              </p>
+            </div>
+          </section>
+
+          <section class="features reveal">
+            <div class="min-container">
+              <div class="features-title">
+                <h2 class="text-title">THE LUCKYRATS COMPLETE ECOSYSTEM</h2>
+              </div>
+            </div>
+            <div class="features-content">
+              <div class="features-content-left">
+                <div class="features-card">
+                  <h4 class="features-card-title">The Forge</h4>
+                  <p class="features-card-desc">
+                    Upgrade your NFTs and Equipment, or Forge a new rare weapon
+                    by combining two of the same type
+                  </p>
+                  <img class="features-card-img" src="./img/features-1.png" />
+                  <div class="features-blur-wrapper">
+                    <div class="features-card-blur features-card-blur-1"></div>
+                  </div>
+                </div>
+                <div class="features-card">
+                  <h4 class="features-card-title">Leaderboard</h4>
+                  <p class="features-card-desc">
+                    Show the world your skills! Get to the top of the PvE and
+                    PvP leaderboards and participate in Tournaments and Special
+                    Events
+                  </p>
+                  <img class="features-card-img" src="./img/feature-2.png" />
+                  <div class="features-blur-wrapper">
+                    <div class="features-card-blur features-card-blur-2"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="features-content-mid">
+                <div class="features-card">
+                  <h4 class="features-card-title">Seasonal Monster</h4>
+                  <p class="features-card-desc">
+                    Experience the feeling of hunting new monsters. They provide
+                    new challenges and exciting rewards only available that
+                    season
+                  </p>
+                  <img class="features-card-img" src="./img/features-3.png" />
+                  <div class="features-blur-wrapper">
+                    <div class="features-card-blur features-card-blur-3"></div>
+                  </div>
+                </div>
+                <div class="features-img-main">
+                  <img src="./img/feature-ring.png" />
+                  <div class="features-blur"></div>
+                </div>
+                <div class="features-card">
+                  <h4 class="features-card-title">MARKETPLACE</h4>
+                  <p class="features-card-desc">
+                    Buy, sell, trade, manage, and view transaction histories of
+                    NFTs. You can even give your weapons to other players as a
+                    gift at no risk
+                  </p>
+                  <img class="features-card-img" src="./img/feature-4.png" />
+                  <div class="features-blur-wrapper">
+                    <div class="features-card-blur features-card-blur-4"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="features-content-right">
+                <div class="features-card">
+                  <h4 class="features-card-title">NFT Items</h4>
+                  <p class="features-card-desc">
+                    Join the player-driven economy. Earn, trade, and sell
+                    in-game NFTs in the Marketplace
+                  </p>
+                  <img class="features-card-img" src="./img/features-5.png" />
+                  <div class="features-blur-wrapper">
+                    <div class="features-card-blur features-card-blur-5"></div>
+                  </div>
+                </div>
+                <div class="features-card">
+                  <h4 class="features-card-title">Daily Rewards</h4>
+                  <p class="features-card-desc">
+                    Earn rewards by daily attendance and hitting the top spots
+                    in our daily competitions and reward pools
+                  </p>
+                  <img class="features-card-img" src="./img/features-6.png" />
+                  <div class="features-blur-wrapper">
+                    <div class="features-card-blur features-card-blur-6"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="features-img">
+              <img src="./img/bg-right.png" />
+            </div>
+            <div class="features-blur-2"></div>
+          </section>
+
+          <!-- <section id="dev" class="dev reveal">
+            <div class="dev-img">
+              <img class="dev-img-pc" src="./img/development-1.svg" />
+              <img class="dev-img-mb" src="./img/dev-1-mobile.svg" />
+            </div>
+            <h2 class="dev-title">Development Partners</h2>
+            <div class="dev-content">
+              <div class="dev-content-1">
+                <div class="dev-content-img dev-content-img-1">
+                  <img src="./img/dev_estoty.png" />
+                </div>
+                <p class="dev-desc">
+                  A leading European mobile games development studio based out of
+                  the Baltics.
+                </p>
+                <ul class="dev-info">
+                  <li>
+                    <h4>1.5 Billion</h4>
+                    <span>Game downloads</span>
+                  </li>
+                  <li>
+                    <h4>200 Million</h4>
+                    <span>Game downloads</span>
+                  </li>
+                  <li>
+                    <h4>2.3 Million</h4>
+                    <span>social media followers</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="dev-content-2">
+                <div class="dev-content-img dev-content-img-2">
+                  <img src="./img/dev-blockgame.svg" />
+                </div>
+                <p class="dev-desc">
+                  BlockGames is a next-generation game development and publishing
+                  studio, with a mission to bring mass-adoption of blockchain
+                  technology through player-owned mobile games.
+                </p>
+              </div>
+            </div>
+            <div class="dev-img-top-left">
+              <img src="./img/bg-left.png" />
+            </div>
+            <div class="dev-blur"></div>
+          </section> -->
+
+          <section id="roadmap" class="roadmap reveal">
+            <div class="roadmap-heading">
+              <div class="roadmap-heading-left">
+                <img src="./img/bg-left.png" />
+              </div>
+              <div class="min-container">
+                <div class="roadmap-title">
+                  <h2 class="text-title">Roadmap</h2>
+                  <p class="text-desc">
+                    The exciting development of the LuckyRats game is just
+                    beginning. Here's a look at our Roadmap. What we have
+                    achieved and the milestones to overcome is shown here
+                  </p>
+                </div>
+              </div>
+              <div class="roadmap-heading-right">
+                <img src="./img/roadmap-right.png" />
+              </div>
+              <div class="roadmap-blur"></div>
+            </div>
+            <div class="roadmap-main">
+              <ul class="roadmap-left">
+                <li class="roadmap-card">
+                  <h4>PHASE 1</h4>
+                  <ul class="roadmap-card-list">
+                    <li>Game ideas, economics development</li>
+                    <li>Website building</li>
+                    <li>Launching social accounts</li>
+                    <li>Smart contract development</li>
+                  </ul>
+                  <div class="roadmap-tick-left">
+                    <img src="./img/roadmap-tick-active.svg" />
+                  </div>
+                </li>
+                <li class="roadmap-card roadmap-card-mobile">
+                  <h4>PHASE 2</h4>
+                  <ul class="roadmap-card-list">
+                    <li>Team KYC verification</li>
+                    <li>Smart Contract Audit</li>
+                    <li>Whitelist competition</li>
+                    <li>Starts marketing plan</li>
+                  </ul>
+                  <div class="roadmap-tick-left">
+                    <img src="./img/roadmap-tick.svg" />
+                  </div>
+                </li>
+                <li class="roadmap-card">
+                  <h4>PHASE 3</h4>
+                  <ul class="roadmap-card-list">
+                    <li>IDO on Pinksale</li>
+                    <li>Token listing on PancakeSwap</li>
+                    <li>Competition for investors</li>
+                    <li>Listing on CMC, CG</li>
+                  </ul>
+                  <div class="roadmap-tick-left">
+                    <img src="./img/roadmap-tick.svg" />
+                  </div>
+                </li>
+                <li class="roadmap-card roadmap-card-mobile">
+                  <h4>PHASE 4</h4>
+                  <ul class="roadmap-card-list">
+                    <li>Game launching</li>
+                    <li>Perfecting the Gameplay system</li>
+                    <li>Growing community</li>
+                    <li>Anti-inflation starts</li>
+                  </ul>
+                  <div class="roadmap-tick-left">
+                    <img src="./img/roadmap-tick.svg" />
+                  </div>
+                </li>
+                <li class="roadmap-card">
+                  <h4>PHASE 5</h4>
+                  <ul class="roadmap-card-list">
+                    <li>Seasonal events</li>
+                    <li>Advanced features development</li>
+                    <li>Cooperate with more kols and partner</li>
+                    <li>Continue the marketing campaign</li>
+                    <li>Update new roadmap</li>
+                  </ul>
+                  <div class="roadmap-tick-left">
+                    <img src="./img/roadmap-tick.svg" />
+                  </div>
+                </li>
+              </ul>
+              <div class="roadmap-line">
+                <div class="roadmap-line-purple"></div>
+                <div class="roadmap-line-light"></div>
+              </div>
+              <ul class="roadmap-right">
+                <li class="roadmap-card">
+                  <h4>PHASE 2</h4>
+                  <ul class="roadmap-card-list">
+                    <li>Team KYC verification</li>
+                    <li>Smart Contract Audit</li>
+                    <li>Whitelist competition</li>
+                    <li>Starts marketing plan</li>
+                  </ul>
+                  <div class="roadmap-tick-right">
+                    <img src="./img/roadmap-tick.svg" />
+                  </div>
+                </li>
+                <li class="roadmap-card">
+                  <h4>PHASE 4</h4>
+                  <ul class="roadmap-card-list">
+                    <li>Game launching</li>
+                    <li>Perfecting the Gameplay system</li>
+                    <li>Growing community</li>
+                    <li>Anti-inflation starts</li>
+                  </ul>
+                  <div class="roadmap-tick-right">
+                    <img src="./img/roadmap-tick.svg" />
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="roadmap-blur-2"></div>
+          </section>
+
+          <section class="discord reveal">
+            <div class="discord-card">
+              <div class="discord-content">
+                <h3>Don’t miss out</h3>
+                <p>
+                  Join the LuckyRats community to stay up to date on new
+                  announcements. Get exclusive content, and be the first to hear
+                  about our competitions and awesome prizes!
+                </p>
+                <a
+                  href="https://t.me/LuckyRats_EN"
+                  target="_blank"
+                  class="btn-primary"
+                >
+                  <img src="./img/telegram.svg" />
+                  <span>JOIN TELEGRAM</span>
+                  <img
+                    src="https://uploads-ssl.webflow.com/6238c68c9069966a6b114a4d/623ef8caa938417db26b161d_button__blur--pink.png"
+                    loading="eager"
+                    alt=""
+                    class="button__blur--pink"
+                  />
+                  <img
+                    src="https://uploads-ssl.webflow.com/6238c68c9069966a6b114a4d/623ef8cae3928a464ca63f6b_button__blur--purple.png"
+                    loading="eager"
+                    alt=""
+                    class="button__blur--purple"
+                  />
+                </a>
+              </div>
+              <div class="discord-img">
+                <img src="./img/join-us.png" />
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer class="footer reveal">
+        <div class="container footer-wrapper">
+          <ul class="footer-left">
+            <li class="footer-logo">
+              <img src="./img/logoweb.png" alt="" class="footer__logo" />
+            </li>
+            <li class="footer-left-content">
+              Show the world your skills. Play and earn money with your hands!
+            </li>
+            <!-- <li class="footer-partners">
+              <a>
+                <img
+                  src="https://uploads-ssl.webflow.com/6238c68c9069966a6b114a4d/623f9b8df4290d07c9c58933_blockgames-footer.svg"
+                  alt=""
+                  class="footer-blockgame"
+                />
+              </a>
+              <img
+                src="https://uploads-ssl.webflow.com/6238c68c9069966a6b114a4d/6238d2bd0532163f9c3f8ed9_x.svg"
+                alt=""
+                class="footer__x"
+              />
+              <a class="footer-partners-custom">
+                <img
+                  src="https://uploads-ssl.webflow.com/6238c68c9069966a6b114a4d/623f9b8d2c7bdd422c8969cf_estoty-footer.png"
+                  alt=""
+                  class="footer__estoty"
+                />
+              </a>
+            </li> -->
+            <li class="footer-left-content">
+              © 2022 LuckyRats. All rights reserved.
+            </li>
+          </ul>
+          <div class="footer-right">
+            <ul>
+              <h4>GAME</h4>
+              <li>
+                <a href="">Gameplay</a>
+              </li>
+              <li>
+                <a href="#chalenge">Challenges</a>
+              </li>
+              <li>
+                <a href="#roadmap">Roadmap</a>
+              </li>
+              <li>
+                <a>Whitepaper</a>
+              </li>
+            </ul>
+            <ul>
+              <h4>SOCIAL</h4>
+              <li>
+                <a>
+                  <img src="./img/logo-btn.svg" />
+                  Discrod
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/luckrats_cn" target="_blank">
+                  <img src="./img/twitter.svg" />
+                  Twitter
+                </a>
+              </li>
+              <li>
+                <a href="https://t.me/LuckyRats_EN" target="_blank">
+                  <img src="./img/telegram.svg" />
+                  Telegram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

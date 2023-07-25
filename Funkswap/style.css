@@ -1,0 +1,321 @@
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+del,
+em,
+img,
+small,
+strong,
+b,
+u,
+i,
+hr,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+button,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  word-wrap: break-word;
+}
+
+html {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption,
+th,
+td {
+  text-align: inherit;
+  font-weight: inherit;
+  vertical-align: middle;
+}
+
+q,
+blockquote {
+  quotes: none;
+}
+
+a img {
+  border: none;
+}
+
+article,
+aside,
+details,
+figure,
+footer,
+header,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+@font-face {
+  font-family: "Fonts";
+  src: url(./fonts/MinecraftTenVGORe.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Fonts";
+  src: url(./fonts/MinecraftTenVGORe.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Fonts";
+  src: url(./fonts/MinecraftTenVGORe.ttf);
+  font-weight: normal;
+}
+.app {
+  font-family: "Fonts", sans-serif;
+  min-height: 100vh;
+  background-color: #000;
+  color: #fff;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 30px 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1200px) {
+  .header {
+    padding: 20px 60px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .header {
+    padding: 20px 40px;
+  }
+}
+.header-right {
+  cursor: pointer;
+  border: 2px solid #fff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  text-decoration: none;
+  color: #fff;
+}
+.header-right:hover {
+  background-color: #fff;
+  color: #000;
+}
+@media screen and (max-width: 1000px) {
+  .header-right {
+    padding: 10px 15px;
+  }
+}
+.header-logo {
+  width: 300px;
+}
+@media screen and (max-width: 1200px) {
+  .header-logo {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .header-logo {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 8600px) {
+  .header-logo {
+    width: 170px;
+  }
+}
+
+.main {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 700px) {
+  .main {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main {
+    width: 98%;
+  }
+}
+.main h2 {
+  font-size: 100px;
+  line-height: 136px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1.06px;
+}
+@media screen and (max-width: 1500px) {
+  .main h2 {
+    font-size: 90px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main h2 {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .main h2 {
+    font-size: 70px;
+    margin-top: 80px;
+    line-height: 100px;
+  }
+}
+@media screen and (max-width: 880px) {
+  .main h2 {
+    font-size: 55px;
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .main h2 {
+    font-size: 40px;
+    margin-top: 50px;
+    line-height: 86px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main h2 {
+    font-size: 35px;
+    line-height: 66px;
+  }
+}
+.main h5 {
+  font-size: 50px;
+  line-height: 42px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  letter-spacing: 1.26px;
+  font-weight: normal;
+}
+@media screen and (max-width: 1200px) {
+  .main h5 {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .main h5 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .main h5 {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .main h5 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main h5 {
+    font-size: 16px;
+  }
+}
+.main span {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: 1.06px;
+  font-weight: normal;
+}
+@media screen and (max-width: 1200px) {
+  .main span {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .main span {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main span {
+    font-size: 14px;
+  }
+}
+.main-img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

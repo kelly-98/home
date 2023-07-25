@@ -1,0 +1,55 @@
+.partners {
+  margin-top: 80px;
+  .common-title {
+    img {
+      height: 135px;
+      width: 100%;
+    }
+    h4 {
+      text-align: center;
+    }
+  }
+  &-text-list {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-transform: uppercase;
+  }
+  &-logo {
+    position: relative;
+  }
+  &-btn-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    @media screen and (max-width: 400px) {
+      width: 100%;
+    }
+  }
+  &-btn-item {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #996450;
+      font-family: "TheTitle", sans-serif;
+      font-size: 25px;
+    }
+    @media screen and (max-width: 400px) {
+      width: 26%;
+      span {
+        font-size: 16px;
+      }
+    }
+  }
+}

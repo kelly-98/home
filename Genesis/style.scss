@@ -1,0 +1,80 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  // // background-image: url(./image/bg.png);
+  // // @media only screen and (max-width: 800px) {
+  // //   background-image: url(./image/bg-mb.png);
+  // //   background-position: bottom;
+  // // }
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center;
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  &-content {
+    width: 70%;
+    @media only screen and (max-width: 800px) {
+      width: 80%;
+    }
+  }
+  &-btn-list {
+    display: inline-flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 30px;
+  }
+  &-logo {
+    width: 50%;
+    margin: 0 auto;
+    transition: all 0.2s ease-in;
+    @media only screen and (max-width: 800px) {
+      width: 80%;
+    }
+    &:hover {
+      transform: scale(0.9);
+    }
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  p {
+    font-family: "Russo One", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0 50px;
+    @media only screen and (max-width: 800px) {
+      padding: 0;
+    }
+  }
+}
+
+.btn {
+  font-family: "Russo One", sans-serif;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  background: rgb(246, 177, 51);
+  background: linear-gradient(
+    90deg,
+    rgba(246, 177, 51, 0) 18%,
+    rgba(255, 0, 198, 1) 100%
+  );
+  text-decoration: none;
+  transition: all 0.3s linear;
+  &:hover {
+    background: #fff;
+    color: #000;
+  }
+}

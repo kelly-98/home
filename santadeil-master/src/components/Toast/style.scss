@@ -1,0 +1,55 @@
+.toast {
+  position: fixed;
+  z-index: 99999999999999;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30%;
+  border-radius: 7px;
+  height: 25px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  @media screen and (max-width: 700px) {
+    width: 60%;
+  }
+  @media screen and (max-width: 600px) {
+    width: 75%;
+  }
+  &-succeed {
+    background-color: #7ed321;
+  }
+  &-failed {
+    background-color: #d0021b;
+  }
+  &-animation-close {
+    animation: close 6s ease-out forwards;
+  }
+
+  &-close {
+    display: none !important;
+  }
+}
+
+@keyframes close {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  60% {
+    opacity: 0.7;
+  }
+  80% {
+    opacity: 0.4;
+  }
+  100% {
+    display: none;
+    opacity: 0;
+  }
+}

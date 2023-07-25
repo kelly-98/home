@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.1.4/pagination.css"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="page-main">
+      <div class="page-left">
+        <div class="logo"><img src="./img/logo.png" alt="logo" /></div>
+        <ul class="page-left-menu">
+          <h2 class="page-left-menu-title">MENU</h2>
+          <li class="page-left-menu-item">
+            <img src="./img/Dashboard2.png" class="page-left-menu-logo-hover" />
+            <img src="./img/Dashboard.png" class="page-left-menu-logo" />
+          </li>
+          <li class="page-left-menu-item">
+            <img
+              src="./img/Marketplace2.png"
+              class="page-left-menu-logo-hover"
+            />
+            <img src="./img/Marketplace.png" class="page-left-menu-logo" />
+          </li>
+          <li class="page-left-menu-item">
+            <img src="./img/Staking2.png" class="page-left-menu-logo-hover" />
+            <img src="./img/Staking.png" class="page-left-menu-logo" />
+          </li>
+          <li class="page-left-menu-item">
+            <img
+              src="./img/Leaderboard 2.png"
+              class="page-left-menu-logo-hover"
+            />
+            <img src="./img/Leaderboard.png" class="page-left-menu-logo" />
+          </li>
+          <li class="page-left-menu-item">
+            <img
+              src="./img/Swap 2.png"
+              class="page-left-menu-logo-hover last-icon"
+            />
+            <img src="./img/Swap.png" class="page-left-menu-logo" />
+          </li>
+          <li class="divider">
+            <img
+              src="./img/search_bg.png"
+              class="page-left-menu-logo divider"
+            />
+          </li>
+          <h2 class="page-left-socials">SOCIALS</h2>
+          <li class="page-left-menu-item">
+            <img src="./img/Website 2.png" class="page-left-menu-logo-hover" />
+            <img src="./img/Website.png" class="page-left-menu-logo" />
+          </li>
+          <li class="page-left-menu-item">
+            <img src="./img/Telegram 2.png" class="page-left-menu-logo-hover" />
+            <img src="./img/Telegram.png" class="page-left-menu-logo" />
+          </li>
+          <li class="page-left-menu-item">
+            <img src="./img/Twitter 2.png" class="page-left-menu-logo-hover" />
+            <img src="./img/Twitter.png" class="page-left-menu-logo" />
+          </li>
+          <li class="page-left-menu-item">
+            <img src="./img/Discord 2.png" class="page-left-menu-logo-hover" />
+            <img src="./img/Discord.png" class="page-left-menu-logo" />
+          </li>
+        </ul>
+      </div>
+
+      <div class="page-right">
+        <div class="page-right-top">
+          <div class="page-right-top-search">
+            <span class="search-text">Dashboard</span>
+            <div class="input-search-wrapper">
+              <img src="./img/search icon.png" class="input-search-icon" />
+              <p class="input-search"></p>
+            </div>
+          </div>
+          <ul class="page-right-top-menu">
+            <div class="top-menu-wrapper">
+              <li class="page-right-top-menu-item">
+                <span
+                  class="page-right-top-btn-text"
+                  data-toggle="modal"
+                  data-target="#accountModal"
+                  >Account</span
+                >
+              </li>
+              <li class="page-right-top-menu-item">
+                <span class="page-right-top-btn-text">Mobile Version</span>
+              </li>
+            </div>
+            <div class="top-menu-wrapper">
+              <li class="page-right-top-menu-item">
+                <span class="page-right-top-btn-text">Play Now</span>
+              </li>
+              <li class="page-right-top-menu-item">
+                <span class="page-right-top-btn-text">Connect Wallet</span>
+              </li>
+            </div>
+          </ul>
+        </div>
+
+        <!-- ------ -->
+        <img src="./img/line 2.png" />
+        <!-- ------ -->
+
+        <div class="page-right-main">
+          <div class="page-right-main-left">
+            <div>
+              <ul class="text-3">
+                <li
+                  class="text-3-item"
+                  data-toggle="modal"
+                  data-target="#withdrawModal"
+                >
+                  <img src="./img/withdraw.png" class="text-3-img" />
+                  <img
+                    src="./img/withdraw_hover.png"
+                    class="text-3-img-hover"
+                  />
+                  <span class="text-3-text">withdraw</span>
+                </li>
+                <li class="text-3-item">
+                  <img src="./img/withdraw.png" class="text-3-img" />
+                  <img
+                    src="./img/withdraw_hover.png"
+                    class="text-3-img-hover"
+                  />
+                  <span class="text-3-text">buy frats</span>
+                </li>
+                <li
+                  class="text-3-item"
+                  data-toggle="modal"
+                  data-target="#deposit"
+                >
+                  <img src="./img/withdraw.png" class="text-3-img" />
+                  <img
+                    src="./img/withdraw_hover.png"
+                    class="text-3-img-hover"
+                  />
+                  <span class="text-3-text">deposit</span>
+                </li>
+              </ul>
+              <img src="./img/BG flappyrats.png" />
+            </div>
+            <div>
+              <div class="bg-title">
+                <img src="./img/bg_title.png" />
+                <span class="bg-title-text">plappyrats game token price</span>
+              </div>
+              <ul class="text-2">
+                <li class="text-2-item">
+                  <img src="./img/bg_token.png" />
+                  <div>
+                    <h3>marketcap</h3>
+                    <span>$00000000</span>
+                  </div>
+                </li>
+                <li class="text-2-item">
+                  <img src="./img/bg_token.png" />
+                  <div>
+                    <h3>current price</h3>
+                    <span>$00000000</span>
+                  </div>
+                </li>
+                <li class="text-2-item">
+                  <img src="./img/bg_token.png" />
+                  <div>
+                    <h3>volumn24h</h3>
+                    <span>$00000000</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- ------ -->
+
+          <div class="page-right-main-right">
+            <div class="page-right-main-img">
+              <img src="./img/bg_history.png" />
+              <span class="page-right-main-title">HISTORY</span>
+              <div id="histories" class="histories"></div>
+              <div class="page-right-main-pagination">
+                <a class="prev-btn" href="javascript:prevPage()" id="btn_prev">
+                  <img src="./img/prev.png" class="prev-btn-img" />
+                  <img src="./img/prev_hover.png" class="prev-btn-img-hover" />
+                  <span class="prev-btn-text">Prev</span>
+                </a>
+                <span id="page"></span>
+                <a class="next-btn" href="javascript:nextPage()" id="btn_next">
+                  <img src="./img/next.png" class="next-btn-img" />
+                  <img src="./img/next_hover.png" class="next-btn-img-hover" />
+                  <span class="next-btn-text">Next</span>
+                  <a href="#jsModal" id="popup" class="jsModalTrigger">Test</a>
+                  <div id="jsModal" class="modal">
+                    <div class="modal__overlay jsOverlay"></div>
+                    <div class="modal__container">
+                      <p>Modal window text</p>
+                      <button class="modal__close jsModalClose">
+                        &#10005;
+                      </button>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="accountModal" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+              <h4 class="modal-title">Account Manager</h4>
+            </div>
+            <div class="modal-body">
+              <form class="form-account-manager">
+                <div class="form-initial-wapper">
+                  <div class="form-initial">
+                    <label>Username</label>
+                    <p>Test 1</p>
+                  </div>
+                  <div class="form-initial">
+                    <label>Password</label>
+                    <p>212r3223</p>
+                  </div>
+                </div>
+                <h4 class="modal-sub-title">Change Your Password</h4>
+                <div class="form-group">
+                  <label for="currentPassword">Current Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="currentPassword"
+                    placeholder="Current Password"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="newPassword">New Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="newPassword"
+                    placeholder="New Password"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="confirmPassword">Confirm Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="confirmPassword"
+                    placeholder="Confirm Password"
+                  />
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn change-password-btn">
+                Change Password
+              </button>
+              <button
+                type="button"
+                class="btn btn-default modal-btn-close"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="withdrawModal" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+              <h4 class="modal-title">Withdraw</h4>
+            </div>
+            <div class="modal-body">
+              <form class="form-account-manager">
+                <div class="form-group form-group-single">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="widthdraw"
+                    placeholder="MAX"
+                  />
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn change-password-btn">
+                Confirm
+              </button>
+              <button
+                type="button"
+                class="btn btn-default modal-btn-close"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="deposit" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+              <h4 class="modal-title">Deposit</h4>
+            </div>
+            <div class="modal-body">
+              <form class="form-account-manager">
+                <div class="form-group form-group-single">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="deposit"
+                    placeholder="MAX"
+                  />
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn change-password-btn">
+                Confirm
+              </button>
+              <button
+                type="button"
+                class="btn btn-default modal-btn-close"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.1.4/pagination.min.js"></script>
+
+    <script>
+      const historyData = [
+        { action: "Action 1", date: "HH:DD:MM", check_tx: "Check tx" },
+        { action: "Action 2", date: "HH:DD:MM", check_tx: "Check tx" },
+        { action: "Action 3", date: "HH:DD:MM", check_tx: "Check tx" },
+        { action: "Action 4", date: "HH:DD:MM", check_tx: "Check tx" },
+        { action: "Action 5", date: "HH:DD:MM", check_tx: "Check tx" },
+        { action: "Action 6", date: "HH:DD:MM", check_tx: "Check tx" },
+        { action: "Action 7", date: "HH:DD:MM", check_tx: "Check tx" },
+        { action: "Action 8", date: "HH:DD:MM", check_tx: "Check tx" },
+        { action: "Action 9", date: "HH:DD:MM", check_tx: "Check tx" },
+        { action: "Action 10 ", date: "HH:DD:MM", check_tx: "Check tx" },
+        { action: "Action 11", date: "HH:DD:MM", check_tx: "Check tx" },
+        { action: "Action 12", date: "HH:DD:MM", check_tx: "Check tx" },
+      ];
+
+      let current_page = 1;
+      let records_per_page = 6;
+
+      function prevPage() {
+        if (current_page > 1) {
+          current_page--;
+          changePage(current_page);
+        }
+      }
+
+      function nextPage() {
+        if (current_page < numPages()) {
+          current_page++;
+          changePage(current_page);
+        }
+      }
+
+      function changePage(page) {
+        const btn_next = document.getElementById("btn_next");
+        const btn_prev = document.getElementById("btn_prev");
+        const histories = document.getElementById("histories");
+        const page_span = document.getElementById("page");
+
+        // Validate page
+        if (page < 1) page = 1;
+        if (page > numPages()) page = numPages();
+
+        histories.innerHTML = "";
+
+        for (
+          let i = (page - 1) * records_per_page;
+          i < page * records_per_page;
+          i++
+        ) {
+          histories.innerHTML += `<li class="history">
+                  <div class="history-item">
+                    <div class="history-left">
+                      <h4>${historyData[i].action}</h4>
+                      <p>${historyData[i].date}</p>
+                    </div>
+                    <div class="history-right">
+                      ${historyData[i].check_tx}
+                    </div>
+                  </div>
+                  <img src="./img/line 2.png" />
+                </li>`;
+        }
+        page_span.innerHTML = `${page} / ${Math.ceil(
+          historyData.length / records_per_page
+        )}`;
+      }
+
+      function numPages() {
+        return Math.ceil(historyData.length / records_per_page);
+      }
+
+      window.onload = function () {
+        changePage(1);
+      };
+
+      document
+        .getElementById("btn-modal")
+        .addEventListener("click", function () {
+          document.getElementById("overlay").classList.add("is-visible");
+          document.getElementById("modal").classList.add("is-visible");
+        });
+
+      document
+        .getElementById("close-btn")
+        .addEventListener("click", function () {
+          document.getElementById("overlay").classList.remove("is-visible");
+          document.getElementById("modal").classList.remove("is-visible");
+        });
+      document.getElementById("overlay").addEventListener("click", function () {
+        document.getElementById("overlay").classList.remove("is-visible");
+        document.getElementById("modal").classList.remove("is-visible");
+      });
+    </script>
+  </body>
+</html>

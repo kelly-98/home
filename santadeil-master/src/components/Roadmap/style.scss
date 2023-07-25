@@ -1,0 +1,115 @@
+.roadmap {
+  margin-top: 200px;
+  position: relative;
+  z-index: 99;
+  @media screen and (max-width: 500px) {
+    margin-top: 100px;
+  }
+  &-title {
+    font-size: 50px;
+    text-align: center;
+    color: #ffc537;
+    margin-bottom: 100px;
+    @media screen and (max-width: 500px) {
+      margin-bottom: 50px;
+    }
+  }
+
+  &-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    @media screen and (max-width: 1300px) {
+      flex-direction: column;
+      align-items: center;
+    }
+    @media screen and (max-width: 700px) {
+      gap: 20px;
+    }
+    &-2 {
+      margin-top: 50px;
+      @media screen and (max-width: 700px) {
+        margin-top: 20px;
+      }
+    }
+  }
+  &-item {
+    position: relative;
+    width: 30%;
+    @media screen and (max-width: 1300px) {
+      width: 35%;
+    }
+    @media screen and (max-width: 1200px) {
+      width: 40%;
+    }
+    @media screen and (max-width: 1100px) {
+      width: 50%;
+    }
+    @media screen and (max-width: 1000px) {
+      width: 60%;
+    }
+    @media screen and (max-width: 700px) {
+      width: 80%;
+    }
+    @media screen and (max-width: 600px) {
+      width: 80%;
+    }
+    @media screen and (max-width: 550px) {
+      width: 90%;
+    }
+    @media screen and (max-width: 400px) {
+      width: 100%;
+    }
+    img {
+      width: 100%;
+    }
+    &-text {
+      position: absolute;
+      top: 30px;
+      left: 30px;
+      @media screen and (max-width: 1350px) {
+        top: 20px;
+      }
+      @media screen and (max-width: 1300px) {
+        top: 40px;
+      }
+      @media screen and (max-width: 750px) {
+        top: 25px;
+      }
+      h5 {
+        font-size: 25px;
+        margin-bottom: 25px;
+        @media screen and (max-width: 1500px) {
+          margin-bottom: 15px;
+        }
+      }
+      li {
+        font-size: 16px;
+        &:not(:last-child) {
+          margin-bottom: 12px;
+          @media screen and (max-width: 1500px) {
+            margin-bottom: 10px;
+          }
+        }
+      }
+      &-2 {
+        top: 80px;
+        @media screen and (max-width: 1350px) {
+          top: 60px;
+        }
+        @media screen and (max-width: 1300px) {
+          top: 40px;
+        }
+        @media screen and (max-width: 750px) {
+          top: 30px;
+        }
+      }
+    }
+  }
+  &-bg-2 {
+    @media screen and (max-width: 1300px) {
+      transform: rotate(180deg);
+    }
+  }
+}

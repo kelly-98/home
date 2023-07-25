@@ -1,0 +1,69 @@
+.modal-spin {
+  display: none;
+  position: fixed;
+  z-index: 999999999999;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(8 0 0 / 80%);
+  align-items: center;
+  justify-content: center;
+  &.modal-open {
+    display: flex;
+  }
+  &-content {
+    border-radius: 50px;
+    width: 30%;
+    height: 30%;
+    box-shadow: inset 0.1rem 0.1rem 0.1rem #4f4f4f59,
+      inset -0.1rem -0.2rem 0.1rem #4f4f4f59;
+    background: rgb(162, 80, 250);
+    background: linear-gradient(
+      180deg,
+      rgba(162, 80, 250, 1) 0%,
+      rgba(196, 80, 250, 1) 100%
+    );
+    padding: 25px;
+
+    @media screen and (max-width: 1000px) {
+      width: 50%;
+    }
+    @media screen and (max-width: 700px) {
+      width: 60%;
+    }
+    @media screen and (max-width: 500px) {
+      width: 70%;
+      height: 25%;
+    }
+    h4 {
+      text-align: center;
+      font-size: 25px;
+    }
+  }
+  &-body {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    @media screen and (max-width: 500px) {
+      gap: 15px;
+    }
+    &-img {
+      width: 80px;
+      @media screen and (max-width: 500px) {
+        width: 60px;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  button {
+    margin-top: 10px;
+  }
+  .btn-primary-wrapper {
+    padding: 5px 10px;
+  }
+}

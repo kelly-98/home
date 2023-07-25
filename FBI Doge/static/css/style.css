@@ -1,0 +1,80 @@
+/* 
+Theme Name: Hello Elementor Child
+Theme URI: https://github.com/elementor/hello-theme/
+Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
+Author: Elementor Team
+Author URI: https://elementor.com/
+Template: hello-elementor
+Version: 1.0.1
+Text Domain: hello-elementor-child
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+/*
+    Add your custom styles here
+*/
+
+header#site-header {
+  display: none;
+}
+
+h1.entry-title {
+  display: none;
+}
+
+footer#site-footer {
+  display: none;
+}
+
+.whitepapertext p {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.whitepaperdivider .elementor-divider-separator {
+  width: 860px !important;
+  margin: auto;
+  text-align: center;
+}
+
+.kuraiinu1 img {
+  /* margin-top: -40px !important; */
+  /* margin-bottom: 40px; */
+}
+
+.partnerlogos .swiper-container-wrap.eael-logo-carousel-wrap {
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 30px;
+}
+
+span.eael-simple-menu-toggle-text {
+  display: none;
+}
+
+@media only screen and (max-width: 769px) {
+  .sectionone {
+    margin-top: -6px;
+  }
+
+  .elementor-9
+    .elementor-element
+    .eael-simple-menu.eael-simple-menu-responsive
+    li.current-menu-item
+    > a {
+    background-color: #f86bc2 !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .whitepapertext p {
+    width: 300px;
+  }
+
+  .partnerlogos .swiper-container-wrap.eael-logo-carousel-wrap {
+    padding: 30px;
+  }
+}

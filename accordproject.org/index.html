@@ -1,0 +1,1931 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="icon" type="image/x-icon" href="./favicon.png" />
+
+    <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+    <link rel="dns-prefetch" href="//ajax.googleapis.com" />
+    <link rel="dns-prefetch" href="//www.google-analytics.com" />
+
+    <link rel="preconnect" href="//fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="//ajax.googleapis.com" crossorigin />
+    <link rel="preconnect" href="//www.google-analytics.com" crossorigin />
+
+    <link rel="pingback" href="xmlrpc.php" />
+
+    <link
+      rel="stylesheet"
+      href="wp-content/themes/project/static/css/main-2.css" />
+
+    <meta name="robots" content="max-image-preview:large" />
+    <link rel="dns-prefetch" href="//stats.wp.com" />
+    <link rel="dns-prefetch" href="//c0.wp.com" />
+    <link rel="dns-prefetch" href="//i0.wp.com" />
+
+    <link
+      rel="stylesheet"
+      id="wp-block-library-css"
+      href="./wp-includes/css/dist/block-library/style.min.css"
+      type="text/css"
+      media="all" />
+    <style id="wp-block-library-inline-css" type="text/css">
+      .has-text-align-justify {
+        text-align: justify;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="jetpack-videopress-video-block-view-css"
+      href="wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/video/view.css?minify=false&#038;ver=34ae973733627b74a14e"
+      type="text/css"
+      media="all" />
+    <link
+      rel="stylesheet"
+      id="mediaelement-css"
+      href="https://c0.wp.com/c/6.2.2/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css"
+      type="text/css"
+      media="all" />
+    <link
+      rel="stylesheet"
+      id="wp-mediaelement-css"
+      href="https://c0.wp.com/c/6.2.2/wp-includes/js/mediaelement/wp-mediaelement.min.css"
+      type="text/css"
+      media="all" />
+    <link
+      rel="stylesheet"
+      id="classic-theme-styles-css"
+      href="https://c0.wp.com/c/6.2.2/wp-includes/css/classic-themes.min.css"
+      type="text/css"
+      media="all" />
+    <style id="global-styles-inline-css" type="text/css">
+      body {
+        --wp--preset--color--black: #000000;
+        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+        --wp--preset--color--white: #ffffff;
+        --wp--preset--color--pale-pink: #f78da7;
+        --wp--preset--color--vivid-red: #cf2e2e;
+        --wp--preset--color--luminous-vivid-orange: #ff6900;
+        --wp--preset--color--luminous-vivid-amber: #fcb900;
+        --wp--preset--color--light-green-cyan: #7bdcb5;
+        --wp--preset--color--vivid-green-cyan: #00d084;
+        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+        --wp--preset--color--vivid-cyan-blue: #0693e3;
+        --wp--preset--color--vivid-purple: #9b51e0;
+        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
+          135deg,
+          rgba(6, 147, 227, 1) 0%,
+          rgb(155, 81, 224) 100%
+        );
+        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
+          135deg,
+          rgb(122, 220, 180) 0%,
+          rgb(0, 208, 130) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
+          135deg,
+          rgba(252, 185, 0, 1) 0%,
+          rgba(255, 105, 0, 1) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
+          135deg,
+          rgba(255, 105, 0, 1) 0%,
+          rgb(207, 46, 46) 100%
+        );
+        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
+          135deg,
+          rgb(238, 238, 238) 0%,
+          rgb(169, 184, 195) 100%
+        );
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
+          135deg,
+          rgb(74, 234, 220) 0%,
+          rgb(151, 120, 209) 20%,
+          rgb(207, 42, 186) 40%,
+          rgb(238, 44, 130) 60%,
+          rgb(251, 105, 98) 80%,
+          rgb(254, 248, 76) 100%
+        );
+        --wp--preset--gradient--blush-light-purple: linear-gradient(
+          135deg,
+          rgb(255, 206, 236) 0%,
+          rgb(152, 150, 240) 100%
+        );
+        --wp--preset--gradient--blush-bordeaux: linear-gradient(
+          135deg,
+          rgb(254, 205, 165) 0%,
+          rgb(254, 45, 45) 50%,
+          rgb(107, 0, 62) 100%
+        );
+        --wp--preset--gradient--luminous-dusk: linear-gradient(
+          135deg,
+          rgb(255, 203, 112) 0%,
+          rgb(199, 81, 192) 50%,
+          rgb(65, 88, 208) 100%
+        );
+        --wp--preset--gradient--pale-ocean: linear-gradient(
+          135deg,
+          rgb(255, 245, 203) 0%,
+          rgb(182, 227, 212) 50%,
+          rgb(51, 167, 181) 100%
+        );
+        --wp--preset--gradient--electric-grass: linear-gradient(
+          135deg,
+          rgb(202, 248, 128) 0%,
+          rgb(113, 206, 126) 100%
+        );
+        --wp--preset--gradient--midnight: linear-gradient(
+          135deg,
+          rgb(2, 3, 129) 0%,
+          rgb(40, 116, 252) 100%
+        );
+        --wp--preset--duotone--dark-grayscale: url("#wp-duotone-dark-grayscale");
+        --wp--preset--duotone--grayscale: url("#wp-duotone-grayscale");
+        --wp--preset--duotone--purple-yellow: url("#wp-duotone-purple-yellow");
+        --wp--preset--duotone--blue-red: url("#wp-duotone-blue-red");
+        --wp--preset--duotone--midnight: url("#wp-duotone-midnight");
+        --wp--preset--duotone--magenta-yellow: url("#wp-duotone-magenta-yellow");
+        --wp--preset--duotone--purple-green: url("#wp-duotone-purple-green");
+        --wp--preset--duotone--blue-orange: url("#wp-duotone-blue-orange");
+        --wp--preset--font-size--small: 13px;
+        --wp--preset--font-size--medium: 20px;
+        --wp--preset--font-size--large: 36px;
+        --wp--preset--font-size--x-large: 42px;
+        --wp--preset--spacing--20: 0.44rem;
+        --wp--preset--spacing--30: 0.67rem;
+        --wp--preset--spacing--40: 1rem;
+        --wp--preset--spacing--50: 1.5rem;
+        --wp--preset--spacing--60: 2.25rem;
+        --wp--preset--spacing--70: 3.38rem;
+        --wp--preset--spacing--80: 5.06rem;
+        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1),
+          6px 6px rgba(0, 0, 0, 1);
+        --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+      }
+      :where(.is-layout-flex) {
+        gap: 0.5em;
+      }
+      body .is-layout-flow > .alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+      body .is-layout-flow > .alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+      body .is-layout-flow > .aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      body .is-layout-constrained > .alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+      body .is-layout-constrained > .alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+      body .is-layout-constrained > .aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      body
+        .is-layout-constrained
+        > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: var(--wp--style--global--content-size);
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      body .is-layout-constrained > .alignwide {
+        max-width: var(--wp--style--global--wide-size);
+      }
+      body .is-layout-flex {
+        display: flex;
+      }
+      body .is-layout-flex {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      body .is-layout-flex > * {
+        margin: 0;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      .has-black-color {
+        color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-color {
+        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-color {
+        color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-color {
+        color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-color {
+        color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-color {
+        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+      .has-luminous-vivid-amber-color {
+        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-color {
+        color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-color {
+        color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-color {
+        color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-color {
+        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-color {
+        color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-background-color {
+        background-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-background-color {
+        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-background-color {
+        background-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-background-color {
+        background-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-background-color {
+        background-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-amber
+        ) !important;
+      }
+      .has-light-green-cyan-background-color {
+        background-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-background-color {
+        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-background-color {
+        background-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-border-color {
+        border-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-border-color {
+        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-border-color {
+        border-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-border-color {
+        border-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-border-color {
+        border-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-border-color {
+        border-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-border-color {
+        border-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-border-color {
+        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-border-color {
+        border-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+        background: var(
+          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
+        ) !important;
+      }
+      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+        background: var(
+          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
+        ) !important;
+      }
+      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
+        ) !important;
+      }
+      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+        background: var(
+          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
+        ) !important;
+      }
+      .has-cool-to-warm-spectrum-gradient-background {
+        background: var(
+          --wp--preset--gradient--cool-to-warm-spectrum
+        ) !important;
+      }
+      .has-blush-light-purple-gradient-background {
+        background: var(--wp--preset--gradient--blush-light-purple) !important;
+      }
+      .has-blush-bordeaux-gradient-background {
+        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+      }
+      .has-luminous-dusk-gradient-background {
+        background: var(--wp--preset--gradient--luminous-dusk) !important;
+      }
+      .has-pale-ocean-gradient-background {
+        background: var(--wp--preset--gradient--pale-ocean) !important;
+      }
+      .has-electric-grass-gradient-background {
+        background: var(--wp--preset--gradient--electric-grass) !important;
+      }
+      .has-midnight-gradient-background {
+        background: var(--wp--preset--gradient--midnight) !important;
+      }
+      .has-small-font-size {
+        font-size: var(--wp--preset--font-size--small) !important;
+      }
+      .has-medium-font-size {
+        font-size: var(--wp--preset--font-size--medium) !important;
+      }
+      .has-large-font-size {
+        font-size: var(--wp--preset--font-size--large) !important;
+      }
+      .has-x-large-font-size {
+        font-size: var(--wp--preset--font-size--x-large) !important;
+      }
+      .wp-block-navigation a:where(:not(.wp-element-button)) {
+        color: inherit;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      .wp-block-pullquote {
+        font-size: 1.5em;
+        line-height: 1.6;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="jetpack_css-css"
+      href="wp-content/plugins/jetpack/css/jetpack.css?ver=12.4-a.7"
+      type="text/css"
+      media="all" />
+    <link rel="canonical" href="" />
+    <link rel="shortlink" href="" />
+
+    <style>
+      img#wpstats {
+        display: none;
+      }
+    </style>
+    <style type="text/css">
+      .recentcomments a {
+        display: inline !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+
+      table.recentcommentsavatartop img.avatar,
+      table.recentcommentsavatarend img.avatar {
+        border: 0px;
+        margin: 0;
+      }
+
+      table.recentcommentsavatartop a,
+      table.recentcommentsavatarend a {
+        border: 0px !important;
+        background-color: transparent !important;
+      }
+
+      td.recentcommentsavatarend,
+      td.recentcommentsavatartop {
+        padding: 0px 0px 1px 0px;
+        margin: 0px;
+      }
+
+      td.recentcommentstextend {
+        border: none !important;
+        padding: 0px 0px 2px 10px;
+      }
+
+      .rtl td.recentcommentstextend {
+        padding: 0px 10px 2px 0px;
+      }
+
+      td.recentcommentstexttop {
+        border: none;
+        padding: 0px 0px 0px 10px;
+      }
+
+      .rtl td.recentcommentstexttop {
+        padding: 0px 10px 0px 0px;
+      }
+    </style>
+    <!-- There is no amphtml version available for this URL. -->
+    <style type="text/css">
+      /* If html does not have either class, do not show lazy loaded images. */
+      html:not(.jetpack-lazy-images-js-enabled):not(.js) .jetpack-lazy-image {
+        display: none;
+      }
+    </style>
+    <script>
+      document.documentElement.classList.add("jetpack-lazy-images-js-enabled");
+    </script>
+
+    <title>MEV Boost Service</title>
+    <meta
+      name="description"
+      content="Revolutionizes blockchain transactions with its advanced Anti-MEV mechanisms and innovative features, ensuring fairness, privacy, and efficiency for all participants" />
+    <meta property="og:title" content="MEV Boost Service" />
+    <meta
+      property="og:description"
+      content="Revolutionizes blockchain transactions with its advanced Anti-MEV mechanisms and innovative features, ensuring fairness, privacy, and efficiency for all participants" />
+    <meta property="og:image" itemprop="image" content="./thumb.jpeg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="MEV Boost Service" />
+    <meta
+      name="twitter:description"
+      content="Revolutionizes blockchain transactions with its advanced Anti-MEV mechanisms and innovative features, ensuring fairness, privacy, and efficiency for all participants" />
+    <meta name="twitter:site" content="@" />
+    <meta name="twitter:image" content="./thumb.jpeg" />
+    <meta name="robots" content="max-image-preview:large" />
+
+    <style type="text/css" id="wp-custom-css">
+      			.wpcf7-form .wpcf7-response-output.wpcf7-validation-errors {
+          color: #D8000C;
+          background-color: #FFBABA50;
+          border: 0;
+          padding: 10px;
+      	  margin: 2em 0 0 0;
+      }
+      .wpcf7-form .wpcf7-response-output.wpcf7-mail-sent-ok {
+          color: #4F8A10;
+          background-color: #DFF2BF50;
+          border: 0;
+          padding: 10px;
+      	  margin: 2em 0 0 0;
+      }
+
+      .grecaptcha-badge { visibility: hidden; }
+
+      .site-footer-metas {
+          margin-top: 80px;
+      }
+
+      .doors-item-link{
+          line-height: 1.4;
+      }
+
+      code {
+         font: 13px Monaco;
+      }
+      pre {
+         background: lightgray;
+         color: black;
+         padding: 10px;
+         margin: 0 0 10px 0;
+      }
+    </style>
+  </head>
+  <body
+    class="home page-template page-template-page-home page-template-page-home-php page page-id-6"
+    data-page="home">
+    <div class="site-wrapper">
+      <h1 class="u-visually-hidden">
+        <strong>MEV Boost Service</strong>
+        empowers transparent<br />
+        and secure transactions
+      </h1>
+
+      <header class="site-header js-in-view">
+        <div class="site-header-inner center appear-fade-down">
+          <a href="#" class="site-header-logo">
+            <span class="u-visually-hidden">MEVX</span>
+
+            <div class="logo">
+              <img src="./wp-content/uploads/2023/07/logo.png" />
+            </div>
+          </a>
+
+          <div class="site-menu-wrapper">
+            <nav class="site-menu">
+              <span class="site-menu-arrow"></span>
+
+              <div class="site-menu-backdrop-perspective">
+                <div class="site-menu-backdrop js-site-menu-backdrop"></div>
+              </div>
+
+              <ul class="site-menu-list">
+                <li
+                  class="site-menu-item site-menu-item--has-submenu js-menu-item-submenu">
+                  <button type="button" class="site-menu-link">
+                    About
+                    <span class="svg svg-caret-down">
+                      <svg width="8" height="4">
+                        <use
+                          xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#caret-down"></use>
+                      </svg>
+                    </span>
+
+                    <span class="svg svg-arrow-right">
+                      <svg width="16" height="7">
+                        <use
+                          xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-right"></use>
+                      </svg>
+                    </span>
+                  </button>
+
+                  <div class="site-megamenu js-site-megamenu" data-megamenu="0">
+                    <div class="site-megamenu-tab">
+                      <button class="site-megamenu-back js-menu-item-back">
+                        <span class="svg svg-arrow-left">
+                          <svg width="16" height="7">
+                            <use
+                              xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-left"></use>
+                          </svg>
+                        </span>
+
+                        <span>Back</span>
+                      </button>
+
+                      <div class="site-megamenu-table">
+                        <div class="site-megamenu-row">
+                          <div class="site-megamenu-cell">
+                            <a href="" class="site-megamenu-link"
+                              ><span class="u-visually-hidden"
+                                >About MEVX</span
+                              ></a
+                            >
+
+                            <span class="site-megamenu-title"
+                              >About MEVX
+                              <span class="svg svg-arrow-right">
+                                <svg width="16" height="7">
+                                  <use
+                                    xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-right"></use>
+                                </svg>
+                              </span>
+                            </span>
+
+                            <p>
+                              Welcome to MEVX - empowering transparent and
+                              secure transactions on blockchain
+                            </p>
+                          </div>
+
+                          <div class="site-megamenu-cell">
+                            <a href="" class="site-megamenu-link"
+                              ><span class="u-visually-hidden">FAQs</span></a
+                            >
+
+                            <span class="site-megamenu-title"
+                              >FAQs
+                              <span class="svg svg-arrow-right">
+                                <svg width="16" height="7">
+                                  <use
+                                    xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-right"></use>
+                                </svg>
+                              </span>
+                            </span>
+
+                            <p>Help you know more about MEVX</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li
+                  class="site-menu-item site-menu-item--has-submenu js-menu-item-submenu">
+                  <button type="button" class="site-menu-link">
+                    Community
+                    <span class="svg svg-caret-down">
+                      <svg width="8" height="4">
+                        <use
+                          xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#caret-down"></use>
+                      </svg>
+                    </span>
+
+                    <span class="svg svg-arrow-right">
+                      <svg width="16" height="7">
+                        <use
+                          xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-right"></use>
+                      </svg>
+                    </span>
+                  </button>
+
+                  <div class="site-megamenu js-site-megamenu" data-megamenu="1">
+                    <div class="site-megamenu-tab">
+                      <button class="site-megamenu-back js-menu-item-back">
+                        <span class="svg svg-arrow-left">
+                          <svg width="16" height="7">
+                            <use
+                              xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-left"></use>
+                          </svg>
+                        </span>
+
+                        <span>Back</span>
+                      </button>
+
+                      <div class="site-megamenu-table">
+                        <div class="site-megamenu-row">
+                          <div class="site-megamenu-cell">
+                            <a
+                              href="https://discord.gg/JHHZQVV3"
+                              target="_blank"
+                              class="site-megamenu-link"
+                              ><span class="u-visually-hidden"
+                                >Join Discord</span
+                              ></a
+                            >
+
+                            <span class="site-megamenu-title"
+                              >Join Discord
+                              <span class="svg svg-arrow-right">
+                                <svg width="16" height="7">
+                                  <use
+                                    xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-right"></use>
+                                </svg>
+                              </span>
+                            </span>
+
+                            <p>
+                              <span style="font-weight: 400"
+                                >Discuss with members and get support from Admin
+                                team</span
+                              >
+                            </p>
+                          </div>
+
+                          <div class="site-megamenu-cell">
+                            <a href="" class="site-megamenu-link"
+                              ><span class="u-visually-hidden">News</span></a
+                            >
+
+                            <span class="site-megamenu-title"
+                              >News
+                              <span class="svg svg-arrow-right">
+                                <svg width="16" height="7">
+                                  <use
+                                    xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-right"></use>
+                                </svg>
+                              </span>
+                            </span>
+
+                            <p>Learn more about the latest update of MEVX</p>
+                          </div>
+                        </div>
+                        <div class="site-megamenu-row">
+                          <div class="site-megamenu-cell">
+                            <a
+                              href="https://t.me/MEVX_Chat"
+                              target="_blank"
+                              class="site-megamenu-link"
+                              ><span class="u-visually-hidden"
+                                >Telegram</span
+                              ></a
+                            >
+
+                            <span class="site-megamenu-title"
+                              >Telegram
+                              <span class="svg svg-arrow-right">
+                                <svg width="16" height="7">
+                                  <use
+                                    xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-right"></use>
+                                </svg>
+                              </span>
+                            </span>
+
+                            <p>
+                              Discuss with members and get support from Admin
+                              team
+                            </p>
+                          </div>
+
+                          <div class="site-megamenu-cell">
+                            <a
+                              href="https://twitter.com/MEVX_IO"
+                              target="_blank"
+                              class="site-megamenu-link"
+                              ><span class="u-visually-hidden">Twitter</span></a
+                            >
+
+                            <span class="site-megamenu-title"
+                              >Twitter
+                              <span class="svg svg-arrow-right">
+                                <svg width="16" height="7">
+                                  <use
+                                    xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-right"></use>
+                                </svg>
+                              </span>
+                            </span>
+
+                            <p>Learn more about the latest update of MEVX</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li
+                  class="site-menu-item site-menu-item--has-submenu js-menu-item-submenu">
+                  <button type="button" class="site-menu-link">
+                    Services
+                    <span class="svg svg-caret-down">
+                      <svg width="8" height="4">
+                        <use
+                          xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#caret-down"></use>
+                      </svg>
+                    </span>
+
+                    <span class="svg svg-arrow-right">
+                      <svg width="16" height="7">
+                        <use
+                          xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-right"></use>
+                      </svg>
+                    </span>
+                  </button>
+
+                  <div class="site-megamenu js-site-megamenu" data-megamenu="2">
+                    <div class="site-megamenu-tab">
+                      <button class="site-megamenu-back js-menu-item-back">
+                        <span class="svg svg-arrow-left">
+                          <svg width="16" height="7">
+                            <use
+                              xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-left"></use>
+                          </svg>
+                        </span>
+
+                        <span>Back</span>
+                      </button>
+
+                      <div class="site-megamenu-table">
+                        <div class="site-megamenu-row">
+                          <div class="site-megamenu-cell">
+                            <a href="/" class="site-megamenu-link"
+                              ><span class="u-visually-hidden"
+                                >Anti-MEV Mechanisms</span
+                              ></a
+                            >
+
+                            <span class="site-megamenu-title"
+                              >Anti-MEV Mechanisms
+                              <span class="svg svg-arrow-right">
+                                <svg width="16" height="7">
+                                  <use
+                                    xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-right"></use>
+                                </svg>
+                              </span>
+                            </span>
+
+                            <p>
+                              Fair and transparent transaction processing,
+                              mitigating the influence of miners and promoting
+                              equal opportunities for users
+                            </p>
+                          </div>
+
+                          <div class="site-megamenu-cell">
+                            <a href="" class="site-megamenu-link"
+                              ><span class="u-visually-hidden"
+                                >Private Transaction Support</span
+                              ></a
+                            >
+
+                            <span class="site-megamenu-title"
+                              >Private Transaction Support
+                              <span class="svg svg-arrow-right">
+                                <svg width="16" height="7">
+                                  <use
+                                    xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-right"></use>
+                                </svg>
+                              </span>
+                            </span>
+                            <p>
+                              Robust private transaction support, enabling users
+                              to conduct confidential and secure transactions
+                            </p>
+                          </div>
+                        </div>
+                        <div class="site-megamenu-row">
+                          <div class="site-megamenu-cell">
+                            <a href="" class="site-megamenu-link"
+                              ><span class="u-visually-hidden"
+                                >Priority Transaction Management</span
+                              ></a
+                            >
+
+                            <span class="site-megamenu-title"
+                              >Priority Transaction Management
+                              <span class="svg svg-arrow-right">
+                                <svg width="16" height="7">
+                                  <use
+                                    xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-right"></use>
+                                </svg>
+                              </span>
+                            </span>
+
+                            <p>
+                              Prioritize critical transactions, ensuring prompt
+                              processing and optimized transaction outcomes
+                            </p>
+                          </div>
+
+                          <div class="site-megamenu-cell">
+                            <a href="" class="site-megamenu-link"
+                              ><span class="u-visually-hidden"
+                                >Fast Mempool Optimization</span
+                              ></a
+                            >
+
+                            <span class="site-megamenu-title"
+                              >Fast Mempool Optimization
+                              <span class="svg svg-arrow-right">
+                                <svg width="16" height="7">
+                                  <use
+                                    xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-right"></use>
+                                </svg>
+                              </span>
+                            </span>
+
+                            <p>
+                              Optimization techniques, streamlining transaction
+                              processing by minimizing delays and congestion
+                            </p>
+                          </div>
+                        </div>
+                        <div class="site-megamenu-row">
+                          <div class="site-megamenu-cell">
+                            <a href="" class="site-megamenu-link"
+                              ><span class="u-visually-hidden"
+                                >Front Running Bot Assistance</span
+                              ></a
+                            >
+
+                            <span class="site-megamenu-title"
+                              >Front Running Bot Assistance
+                              <span class="svg svg-arrow-right">
+                                <svg width="16" height="7">
+                                  <use
+                                    xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-right"></use>
+                                </svg>
+                              </span>
+                            </span>
+
+                            <p>
+                              Faster transaction execution, and secure optimal
+                              outcomes in a competitive blockchain environment
+                            </p>
+                          </div>
+
+                          <div class="site-megamenu-cell">
+                            <a href="" class="site-megamenu-link"
+                              ><span class="u-visually-hidden"
+                                >Node Services and Infrastructure</span
+                              ></a
+                            >
+
+                            <span class="site-megamenu-title"
+                              >Node Services and Infrastructure
+                              <span class="svg svg-arrow-right">
+                                <svg width="16" height="7">
+                                  <use
+                                    xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-right"></use>
+                                </svg>
+                              </span>
+                            </span>
+
+                            <p>
+                              Ensure the stability, security, and seamless
+                              operation of the blockchain network
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li
+                  class="site-menu-item site-menu-item--has-submenu js-menu-item-submenu">
+                  <button type="button" class="site-menu-link">
+                    Resources
+                    <span class="svg svg-caret-down">
+                      <svg width="8" height="4">
+                        <use
+                          xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#caret-down"></use>
+                      </svg>
+                    </span>
+
+                    <span class="svg svg-arrow-right">
+                      <svg width="16" height="7">
+                        <use
+                          xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-right"></use>
+                      </svg>
+                    </span>
+                  </button>
+
+                  <div class="site-megamenu js-site-megamenu" data-megamenu="3">
+                    <div class="site-megamenu-tab">
+                      <button class="site-megamenu-back js-menu-item-back">
+                        <span class="svg svg-arrow-left">
+                          <svg width="16" height="7">
+                            <use
+                              xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-left"></use>
+                          </svg>
+                        </span>
+
+                        <span>Back</span>
+                      </button>
+
+                      <div class="site-megamenu-table">
+                        <div class="site-megamenu-row">
+                          <div class="site-megamenu-cell">
+                            <a href="#" class="site-megamenu-link"
+                              ><span class="u-visually-hidden"
+                                >Documentation</span
+                              ></a
+                            >
+
+                            <span class="site-megamenu-title"
+                              >Documentation
+                              <span class="svg svg-arrow-right">
+                                <svg width="16" height="7">
+                                  <use
+                                    xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-right"></use>
+                                </svg>
+                              </span>
+                            </span>
+
+                            <p>Learn how to use MEVX and what MEVX can do</p>
+                          </div>
+
+                          <div class="site-megamenu-cell">
+                            <a href="#" class="site-megamenu-link"
+                              ><span class="u-visually-hidden">GitHub</span></a
+                            >
+
+                            <span class="site-megamenu-title"
+                              >GitHub
+                              <span class="svg svg-arrow-right">
+                                <svg width="16" height="7">
+                                  <use
+                                    xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-right"></use>
+                                </svg>
+                              </span>
+                            </span>
+
+                            <p>Learn more about how MEVX works</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+
+            <ul class="site-actions">
+              <li class="site-actions-item">
+                <a href="#" class="site-actions-link">
+                  <span class="svg svg-code">
+                    <svg width="15" height="15">
+                      <use
+                        xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#code"></use>
+                    </svg>
+                  </span>
+                  Documentation</a
+                >
+              </li>
+              <li class="site-actions-item">
+                <a href="#" class="site-actions-link">
+                  <span class="svg svg-github">
+                    <svg width="15" height="15">
+                      <use
+                        xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#github"></use>
+                    </svg>
+                  </span>
+                  Github</a
+                >
+              </li>
+              <li class="site-actions-item">
+                <a href="https://discord.gg/JHHZQVV3" class="site-actions-link">
+                  <span class="svg svg-discord">
+                    <svg width="15" height="15">
+                      <use
+                        xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#discord"></use>
+                    </svg>
+                  </span>
+                  Discord</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <button type="button" class="site-menu-button js-toggle-menu">
+            <span class="u-visually-hidden">Toggle menu</span>
+            <span class="svg svg-menu">
+              <svg width="23" height="19">
+                <use
+                  xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#menu"></use>
+              </svg>
+            </span>
+
+            <span class="svg svg-cross">
+              <svg width="19" height="19">
+                <use
+                  xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#cross"></use>
+              </svg>
+            </span>
+          </button>
+        </div>
+      </header>
+
+      <div class="site-container" role="main" data-router-wrapper>
+        <main data-router-view="home">
+          <header class="page-header home-header">
+            <div class="center">
+              <div class="js-in-view">
+                <p class="page-header-title appear-fade-up">
+                  <strong>MEV Boost Service</strong><br />
+                  empowers transparent<br />
+                  and secure transactions
+                </p>
+                <p class="page-header-text appear-fade-up appear-delay-1">
+                  <span
+                    >Revolutionizes blockchain transactions with its advanced
+                    <b>Anti-MEV mechanisms</b> <br />
+                    and innovative features, ensuring fairness, privacy, and
+                    efficiency for all participants</span
+                  >
+                </p>
+
+                <div class="doors">
+                  <div class="doors-item appear-fade-up appear-delay-2">
+                    <a href="#">
+                      <span class="u-visually-hidden">WHITEPAPER</span>
+                    </a>
+
+                    <figure class="doors-item-icon">
+                      <img
+                        loading="lazy"
+                        src="wp-content/uploads/2023/07/b0f38eeb8d37e26e502c29baec422511.png"
+                        srcset="
+                          wp-content/uploads/2023/07/b0f38eeb8d37e26e502c29baec422511.png 1x,
+                          wp-content/uploads/2023/07/b0f38eeb8d37e26e502c29baec422511.png 2x
+                        "
+                        alt="News" />
+                    </figure>
+
+                    <div class="doors-item-content">
+                      <h2 class="u-visually-hidden">WHITEPAPER</h2>
+
+                      <p class="doors-item-text">
+                        Discover more about how MEVX works and feature Ecosystem
+                      </p>
+                      <p class="doors-item-link link link--uppercase">
+                        WHITEPAPER
+                        <span class="svg svg-arrow-right">
+                          <svg width="16" height="7">
+                            <use
+                              xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-right"></use>
+                          </svg>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="doors-item appear-fade-up appear-delay-3">
+                    <a href="#">
+                      <span class="u-visually-hidden">Documentation</span>
+                    </a>
+
+                    <figure class="doors-item-icon">
+                      <img
+                        loading="lazy"
+                        src="wp-content/uploads/2023/07/e015e9d8312a93d94dae069f3584acfa.png"
+                        srcset="
+                          wp-content/uploads/2023/07/e015e9d8312a93d94dae069f3584acfa.png 1x,
+                          wp-content/uploads/2023/07/e015e9d8312a93d94dae069f3584acfa.png 2x
+                        "
+                        alt="" />
+                    </figure>
+
+                    <div class="doors-item-content">
+                      <h2 class="u-visually-hidden">Documentation</h2>
+
+                      <p class="doors-item-text">
+                        Learn how to use MEVX and what MEVX can do
+                      </p>
+                      <p class="doors-item-link link link--uppercase">
+                        Documentation
+                        <span class="svg svg-arrow-right">
+                          <svg width="16" height="7">
+                            <use
+                              xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-right"></use>
+                          </svg>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="doors-item appear-fade-up appear-delay-4">
+                    <a href="#">
+                      <span class="u-visually-hidden">MEET THE DEVELOPER</span>
+                    </a>
+
+                    <figure class="doors-item-icon">
+                      <img
+                        loading="lazy"
+                        src="wp-content/uploads/2023/07/01a65b379ebeba9c5f83c737b52e315c.png"
+                        srcset="
+                          wp-content/uploads/2023/07/01a65b379ebeba9c5f83c737b52e315c.png 1x,
+                          wp-content/uploads/2023/07/01a65b379ebeba9c5f83c737b52e315c.png 2x
+                        "
+                        alt="" />
+                    </figure>
+
+                    <div class="doors-item-content">
+                      <h2 class="u-visually-hidden">MEET THE DEVELOPER</h2>
+
+                      <p class="doors-item-text">
+                        Discuss with the community and get support from MEVX
+                        team
+                      </p>
+                      <p class="doors-item-link link link--uppercase">
+                        MEET THE DEVELOPER
+                        <span class="svg svg-arrow-right">
+                          <svg width="16" height="7">
+                            <use
+                              xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-right"></use>
+                          </svg>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="bars">
+                  <div class="bars-top-right">
+                    <div class="animated-bar from-bottom to-right">
+                      <div class="bars">
+                        <span class="circle"></span>
+                      </div>
+                    </div>
+
+                    <div class="animated-bar from-bottom to-right delay-4">
+                      <div class="bars">
+                        <span class="circle"></span>
+                      </div>
+                    </div>
+
+                    <div class="animated-bar from-bottom to-right delay-2">
+                      <div class="bars">
+                        <span class="circle"></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bars-top-left">
+                    <div class="animated-bar from-bottom to-left">
+                      <div class="bars">
+                        <span class="circle"></span>
+                      </div>
+                    </div>
+                    <div class="animated-bar from-bottom to-left delay-5">
+                      <div class="bars">
+                        <span class="circle"></span>
+                      </div>
+                    </div>
+                    <div class="animated-bar from-bottom to-left">
+                      <div class="bars">
+                        <span class="circle"></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="animated-bar from-top no-side bar-single-top delay-7">
+                    <div class="bars">
+                      <span class="circle"></span>
+                    </div>
+                  </div>
+
+                  <div
+                    class="animated-bar from-bottom no-side bar-single-bottom delay-3">
+                    <div class="bars">
+                      <span class="circle"></span>
+                    </div>
+                  </div>
+
+                  <div class="animated-bar from-bottom no-side bar-single-left">
+                    <div class="bars">
+                      <span class="circle"></span>
+                    </div>
+                  </div>
+
+                  <div
+                    class="animated-bar from-bottom no-side bar-single-bottom-left">
+                    <div class="bars">
+                      <span class="circle"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="js-in-view">
+                <div class="columns-2">
+                  <h2 class="columns-2-title appear-fade-up appear-delay-0">
+                    <b>The MEV Boots Service<br /> </b>and Our Purpose
+                  </h2>
+
+                  <div
+                    class="columns-2-text typeset typeset--light appear-fade-up appear-delay-1">
+                    <p>
+                      <span style="font-weight: 400">
+                        MEVX is a transformative blockchain platform that sets
+                        out to redefine the landscape of transaction processing
+                        by tackling the pervasive issue of Miner Extractable
+                        Value (MEV). Built on the principles of fairness,
+                        transparency and user empowerment.
+                      </span>
+                    </p>
+                    <p>
+                      <span style="font-weight: 400"
+                        >MEVX seeks to create an ecosystem where participants
+                        can engage in transactions with confidence , knowing
+                        that their interests are safeguarded.
+                      </span>
+                    </p>
+                    <p>
+                      <span style="font-weight: 400"
+                        >At its core, MEVX addresses the challenges posed by MEV
+                        bot, a phenomenon that enables miners to selectively
+                        include and order transactions to their advantage. By
+                        implementing advanced anti-MEV mechanisms, MEVX aims to
+                        level the playing field and minimize the influence of
+                        miners, ensuring that transaction outcomes are driven by
+                        principles of equity and unbiased processing.
+                      </span>
+                    </p>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="columns-2-link link link--underline appear-fade-up appear-delay-2">
+                    Learn More
+                    <span class="svg svg-arrow-right">
+                      <svg width="16" height="7">
+                        <use
+                          xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#arrow-right"></use>
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+
+                <div class="bars">
+                  <div class="bars-columns-top">
+                    <div class="animated-bar from-bottom to-left delay-1">
+                      <div class="bars">
+                        <span class="circle"></span>
+                      </div>
+                    </div>
+
+                    <div class="animated-bar from-bottom to-left delay-4">
+                      <div class="bars">
+                        <span class="circle"></span>
+                      </div>
+                    </div>
+
+                    <div class="animated-bar from-bottom to-left">
+                      <div class="bars">
+                        <span class="circle"></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bars-columns-bottom">
+                    <div class="animated-bar from-bottom to-right delay-2">
+                      <div class="bars">
+                        <span class="circle"></span>
+                      </div>
+                    </div>
+
+                    <div class="animated-bar from-bottom to-right delay-5">
+                      <div class="bars">
+                        <span class="circle"></span>
+                      </div>
+                    </div>
+
+                    <div class="animated-bar from-bottom to-right">
+                      <div class="bars">
+                        <span class="circle"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+
+          <div class="page-content">
+            <section class="projects">
+              <div class="center">
+                <header class="projects-header js-in-view">
+                  <p class="projects-headline headline appear-fade-up">
+                    PROFESSIONAL AND PRIVATE SUPPORT TOOLS
+                  </p>
+
+                  <h2 class="projects-title appear-fade-up appear-delay-1">
+                    Unleashing the potential of blockchain Introducing MEVX's
+                    revolutionary
+                    <strong>transaction services</strong>
+                  </h2>
+                </header>
+
+                <div class="projects-items">
+                  <div class="project js-in-view">
+                    <div class="project-content appear-fade-up">
+                      <h3 class="project-title">
+                        <span class="text-title">MEV BOOST SERVICES</span>
+                      </h3>
+
+                      <p class="project-tagline tagline">
+                        Enhancing Your Transaction Outcomes with MEV Boost
+                      </p>
+
+                      <div class="project-text typeset">
+                        <p>
+                          <span style="font-weight: 400"
+                            >Minimize missed opportunities and gain an edge in
+                            the competition on-chain. Unlock the full potential
+                            of your transactions and experience a new level of
+                            efficiency, fairness, and profitability.</span
+                          >
+                        </p>
+                      </div>
+
+                      <ul class="project-buttons">
+                        <li>
+                          <a href="#" class="button button--outline"
+                            >Discover our services</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="project-aside appear-fade-up appear-delay-1">
+                      <div class="snippet js-snippet js-in-view">
+                        <div class="snippet-head">
+                          <p class="snippet-name">mainbot.lib</p>
+                        </div>
+
+                        <div class="snippet-code-2">
+                          <div id="t">
+                            <span>// Main RBAP execution</span>
+                            <br />
+                            <strong
+                              >&nbsp; verificationResult :=
+                              verifyTransaction(transactionData)
+                            </strong>
+                            <br />
+                            <strong>&nbsp; if verificationResult {</strong>
+                            <br />
+                            <span
+                              >// Determine the execution order of
+                              transactions</span
+                            >
+                            <br />
+                            <strong
+                              >&nbsp; orderedTransactions :=
+                              determineExecutionOrder(transactions)
+                            </strong>
+                            <br />
+                            <span
+                              >// Adjust transaction order to promote fairness
+                              and prevent MEV</span
+                            >
+                            <br />
+                            <strong
+                              >&nbsp; adjustedTransactions :=
+                              adjustTransactionOrder(orderedTransactions)
+                            </strong>
+                            <span>// Submit to MEVX Router</span>
+                            <br />
+                            <strong
+                              >&nbsp; result, err :=
+                              submitMevXBundleTransaction(adjustedTransactions)
+                            </strong>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="project js-in-view">
+                    <div class="project-content appear-fade-up">
+                      <h3 class="project-title">
+                        <span class="text-title">MEMPOOL OPTIMIZATION</span>
+                      </h3>
+
+                      <p class="project-tagline tagline">
+                        Streamlining Transaction Processing with Lightning-Fast
+                        Mempool Optimization
+                      </p>
+
+                      <div class="project-text typeset">
+                        <p>
+                          Unlock the true potential of your transactions and
+                          enjoy an enhanced user experience like never before.
+                          Join us in embracing a new era of scalability, speed,
+                          and reliability with MEVX Fast Mempool Optimization.
+                        </p>
+                      </div>
+
+                      <ul class="project-buttons">
+                        <li>
+                          <a href="#" class="button button--outline"
+                            >Explore Transactions</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="project-aside appear-fade-up appear-delay-1">
+                      <div class="snippet js-snippet js-in-view">
+                        <div class="snippet-head">
+                          <p class="snippet-name">logic.bat</p>
+                        </div>
+                        <!-- <p class="snippet-code"> -->
+                        <div class="snippet-code-2">
+                          <div id="t2">
+                            <strong>priorities </strong>
+                            <span
+                              >:= make([]float64, len(rbap.Transactions))</span
+                            >
+                            <br />
+                            <strong>done </strong>
+                            <span>:= make(chan bool)</span>
+                            <br />
+                            <strong>for i </strong>
+                            <span>:= range rbap.Transactions {</span>
+                            <br />
+                            <span>go func(index int) {</span>
+                            <br />
+                            <strong>priorities[index] </strong>
+                            <span>
+                              = ProcessTransaction(rbap.Transactions[index]
+                            </span>
+                            <br />
+                            <span>,rbap.PrioritizationRatio)</span>
+                            <br />
+                            <strong>done <- true </strong>
+                            <br />
+                            <span> }(i) </span>
+                            <br />
+                            <span>}</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="partners js-in-view">
+              <div class="center appear-fade-up">
+                <p
+                  class="partners-headline headline appear-fade-up appear-delay-1">
+                  connect with mevx team
+                </p>
+
+                <h2 class="partners-title appear-fade-up appear-delay-1"></h2>
+
+                <div class="input-wrapper">
+                  <input placeholder="Type your message here...." />
+                  <a
+                    href=""
+                    class="partners-button button appear-fade-up appear-delay-1">
+                    Send Email
+                  </a>
+                </div>
+
+                <ul class="site-actions site-actions-custom">
+                  <li class="site-actions-item">
+                    <a href="#" class="site-actions-link">
+                      <span class="svg svg-code">
+                        <svg width="15" height="15">
+                          <use
+                            xlink:href="wp-content/themes/project/static/assets/spritesheet.svg#code"></use>
+                        </svg>
+                      </span>
+                      Documentation</a
+                    >
+                  </li>
+                  <li class="site-actions-item">
+                    <a
+                      href="https://t.me/MEVX_Chat"
+                      target="_blank"
+                      class="site-actions-link">
+                      <span class="svg svg-github">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="15"
+                          height="15"
+                          viewBox="0 0 16 16"
+                          fill="none">
+                          <g clip-path="url(#clip0_101_204)">
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M15 7.82031C15 11.9624 11.6421 15.3203 7.5 15.3203C3.35786 15.3203 0 11.9624 0 7.82031C0 3.67818 3.35786 0.320312 7.5 0.320312C11.6421 0.320312 15 3.67818 15 7.82031ZM7.76877 5.85714C7.03928 6.16056 5.58134 6.78856 3.39493 7.74114C3.0399 7.88233 2.85391 8.02045 2.83698 8.1555C2.80837 8.38375 3.09419 8.47362 3.48342 8.59601C3.53636 8.61266 3.59122 8.62991 3.64746 8.64819C4.0304 8.77267 4.54552 8.9183 4.8133 8.92408C5.05621 8.92933 5.32733 8.82919 5.62665 8.62365C7.66947 7.24469 8.72399 6.54769 8.79019 6.53267C8.8369 6.52207 8.90162 6.50874 8.94548 6.54772C8.98933 6.58669 8.98502 6.66051 8.98038 6.68031C8.95206 6.80102 7.83008 7.84412 7.24945 8.38392C7.06844 8.55221 6.94005 8.67157 6.9138 8.69884C6.855 8.7599 6.79508 8.81767 6.73749 8.87319C6.38173 9.21614 6.11494 9.47333 6.75226 9.89331C7.05853 10.0951 7.3036 10.262 7.5481 10.4285C7.81511 10.6104 8.08143 10.7917 8.42601 11.0176C8.5138 11.0752 8.59764 11.1349 8.67931 11.1931C8.99005 11.4147 9.26922 11.6137 9.61412 11.582C9.81453 11.5635 10.0215 11.3751 10.1267 10.813C10.3751 9.48478 10.8635 6.60685 10.9764 5.42092C10.9863 5.31702 10.9738 5.18404 10.9638 5.12567C10.9539 5.0673 10.933 4.98413 10.8571 4.92256C10.7672 4.84965 10.6285 4.83427 10.5665 4.83536C10.2844 4.84033 9.8516 4.99082 7.76877 5.85714Z"
+                              fill="white" />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_101_204">
+                              <rect
+                                width="15"
+                                height="15"
+                                fill="white"
+                                transform="translate(0.0299988 0.320312)" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                      </span>
+                      Telegram</a
+                    >
+                  </li>
+                  <li class="site-actions-item">
+                    <a
+                      href="https://twitter.com/MEVX_IO"
+                      target="_blank"
+                      class="site-actions-link">
+                      <span class="svg svg-discord">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="15"
+                          height="15"
+                          viewBox="0 0 16 16"
+                          fill="none">
+                          <g clip-path="url(#clip0_101_211)">
+                            <path
+                              d="M4.71885 14.0068C10.3778 14.0068 13.4739 9.31725 13.4739 5.25172C13.4739 5.11988 13.471 4.98512 13.4651 4.85328C14.0674 4.41772 14.5872 3.87821 15 3.26012C14.4391 3.50968 13.8435 3.67267 13.2337 3.74352C13.8758 3.35862 14.3566 2.75398 14.5869 2.04166C13.9828 2.39965 13.3222 2.65219 12.6334 2.78844C12.1693 2.29528 11.5556 1.96875 10.8873 1.85934C10.219 1.74992 9.53324 1.86371 8.93609 2.18312C8.33893 2.50252 7.86363 3.00975 7.58365 3.62638C7.30368 4.243 7.23464 4.93469 7.38721 5.59449C6.16406 5.53311 4.96746 5.21537 3.87499 4.66187C2.78252 4.10836 1.81856 3.33145 1.04561 2.3815C0.65275 3.05883 0.532535 3.86033 0.709394 4.62311C0.886253 5.38589 1.34691 6.05271 1.99775 6.48805C1.50914 6.47253 1.03123 6.34098 0.603516 6.10426V6.14234C0.603078 6.85315 0.848811 7.54217 1.29894 8.09229C1.74908 8.6424 2.37583 9.01966 3.07266 9.15992C2.62003 9.28376 2.14499 9.3018 1.68428 9.21266C1.88091 9.82395 2.26348 10.3586 2.77861 10.742C3.29373 11.1254 3.9157 11.3384 4.55771 11.3513C3.46777 12.2075 2.12136 12.6719 0.735352 12.6697C0.489554 12.6693 0.243999 12.6542 0 12.6246C1.40804 13.5279 3.04596 14.0077 4.71885 14.0068Z"
+                              fill="white" />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_101_211">
+                              <rect
+                                width="15"
+                                height="15"
+                                fill="white"
+                                transform="translate(0.530029 0.320312)" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                      </span>
+                      Twitter</a
+                    >
+                  </li>
+                  <li class="site-actions-item">
+                    <a
+                      href="https://medium.com/@MEVX"
+                      target="_blank"
+                      class="site-actions-link">
+                      <span class="svg svg-discord">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="15"
+                          height="15"
+                          viewBox="0 0 640 512">
+                          <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                          <path
+                            d="M180.5,74.262C80.813,74.262,0,155.633,0,256S80.819,437.738,180.5,437.738,361,356.373,361,256,280.191,74.262,180.5,74.262Zm288.25,10.646c-49.845,0-90.245,76.619-90.245,171.095s40.406,171.1,90.251,171.1,90.251-76.619,90.251-171.1H559C559,161.5,518.6,84.908,468.752,84.908Zm139.506,17.821c-17.526,0-31.735,68.628-31.735,153.274s14.2,153.274,31.735,153.274S640,340.631,640,256C640,171.351,625.785,102.729,608.258,102.729Z" />
+                        </svg>
+                      </span>
+                      Medium</a
+                    >
+                  </li>
+                </ul>
+
+                <div class="bars">
+                  <div
+                    class="animated-bar from-bottom no-side shorter bar-single-left">
+                    <div class="bars">
+                      <span class="circle"></span>
+                    </div>
+                  </div>
+
+                  <div
+                    class="animated-bar from-bottom no-side shorter bar-single-right">
+                    <div class="bars">
+                      <span class="circle"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="media-content js-in-view">
+              <div class="center">
+                <div class="media-content-left appear-fade-up">
+                  <p class="media-content-headline headline">ECOSYSTEM</p>
+
+                  <h2 class="media-content-title">
+                    Exploring The
+                    <br />
+                    <strong>MEVX Service</strong> Ecosystem
+                  </h2>
+
+                  <div class="media-content-text typeset">
+                    <p>
+                      <span style="font-weight: 400"
+                        >The MEVX service ecosystem forms an interconnected web
+                        of cutting-edge solutions, each crafted to empower
+                        users, enhance fairness, and optimize transaction
+                        processing. Embrace the future of decentralized
+                        interactions with MEVX and unlock a world of
+                        possibilities within the blockchain landscape.</span
+                      >
+                    </p>
+                  </div>
+                </div>
+
+                <div class="media-content-right appear-fade-up appear-delay-1">
+                  <figure class="media-content-picture">
+                    <img
+                      loading="lazy"
+                      src="wp-content/uploads/2023/07/44a179f936fd9e0723f29d21a52b316b.png"
+                      srcset="
+                        wp-content/uploads/2023/07/44a179f936fd9e0723f29d21a52b316b.png 1x,
+                        wp-content/uploads/2023/07/44a179f936fd9e0723f29d21a52b316b.png 2x
+                      "
+                      alt="" />
+                  </figure>
+                </div>
+              </div>
+            </section>
+          </div>
+        </main>
+      </div>
+
+      <footer class="site-footer js-in-view">
+        <div class="center appear-fade">
+          <div class="site-footer-content">
+            <div class="site-footer-column">
+              <a href="#" class="site-footer-logo">
+                <span class="u-visually-hidden">MEVX</span>
+
+                <div class="logo">
+                  <img
+                    src="./wp-content/uploads/2023/07/logo-footer.png"
+                    alt="" />
+                </div>
+              </a>
+
+              <p class="site-footer-tagline">
+                Empowers transparent and secure transactions
+              </p>
+
+              <p class="site-footer-contact">
+                <a href="mailto:contact@mevx.io" class="link"
+                  >contact@mevx.io</a
+                >
+              </p>
+            </div>
+
+            <div class="site-footer-column">
+              <div class="site-footer-menu">
+                <span class="site-footer-title">About</span>
+
+                <ul class="site-footer-list">
+                  <li><a href="">About MEVX bot</a></li>
+                  <li><a href="">FAQ</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="site-footer-column">
+              <div class="site-footer-menu">
+                <span class="site-footer-title">Community</span>
+
+                <ul class="site-footer-list">
+                  <li>
+                    <a href="https://t.me/MEVX_Chat" target="_blank"
+                      >Telegram</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/MEVX_IO" target="_blank"
+                      >Twitter</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://discord.gg/JHHZQVV3" target="_blank"
+                      >Discord</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://medium.com/@MEVX" target="_blank"
+                      >Medium</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="site-footer-column">
+              <div class="site-footer-menu">
+                <span class="site-footer-title">services</span>
+
+                <ul class="site-footer-list">
+                  <li><a href="">AntiMEV</a></li>
+                  <li><a href="">Fast Mempool</a></li>
+                  <li><a href="">Node Services</a></li>
+                  <li>
+                    <a href="">Front Running Bot</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="site-footer-column">
+              <div class="site-footer-menu">
+                <span class="site-footer-title">Resources</span>
+
+                <ul class="site-footer-list">
+                  <li>
+                    <a href="#">Documentation</a>
+                  </li>
+                  <li>
+                    <a href="#">Whitepaper</a>
+                  </li>
+                  <li>
+                    <a href="#">GitHub</a>
+                  </li>
+                  <li>
+                    <a href="#">Open Source Library</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="bars">
+            <div
+              class="animated-bar from-bottom to-left bar-single-left delay-2">
+              <div class="bars">
+                <span class="circle"></span>
+              </div>
+            </div>
+
+            <div class="animated-bar from-bottom to-right bar-single-right">
+              <div class="bars">
+                <span class="circle"></span>
+              </div>
+            </div>
+
+            <div class="animated-bar from-top no-side">
+              <div class="bars">
+                <span class="circle"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div class="site-loader js-site-loader">
+      <svg viewBox="0 0 233 233" class="site-loader-logo">
+        <path
+          d="M111,110.3c-3.5-11-6.7-21.1-10-31.1c-0.3-0.8-1.6-1.7-2.5-1.8c-9.2-0.1-18.4-0.1-28.3-0.1C73.8,88,77,98.1,80.5,108.1c0.3,1,2.1,2,3.2,2.1C92.5,110.4,101.3,110.3,111,110.3L111,110.3z M60.9,99.6c-0.4,0-0.8,0-1.1,0c-12.6,38.8-25.2,77.6-38,117c16.3,0,31.6,0.1,46.9-0.2c1.2,0,2.9-2.3,3.4-3.9c8.8-27.6,17.5-55.2,26.2-82.8c0.3-1,0.4-2.1,0.7-3.6c-8.2,0-16-0.2-23.8,0.1c-3.9,0.2-5.9-0.8-7-4.9C66.1,114,63.4,106.8,60.9,99.6L60.9,99.6z M97.7,16.1c0,0.8-0.1,1.3,0,1.7c21,65.3,42.1,130.5,63.3,195.7c0.4,1.4,3,2.9,4.6,3c13.8,0.2,27.6,0.2,41.5,0.1c1.1,0,2.2-0.2,3.7-0.4c-0.4-1.6-0.7-2.8-1.1-4.1c-3.8-11.9-7.6-23.8-11.4-35.7c-16.8-52.1-33.6-104.2-50.3-156.4c-1.1-3.5-2.7-4.5-6.3-4.5c-13.3,0.2-26.7,0.1-40,0.1C100.4,15.8,99.1,16,97.7,16.1L97.7,16.1z M0,232.5c3.4-10.5,6.5-20.3,9.6-30.1C24.2,157.2,38.9,112.1,53.4,67c1.3-4.1,3.3-5.3,7.4-5.2c9.7,0.3,19.3,0.1,29,0.1c1.6,0,3.2,0,5.6,0C88.7,41.1,82.3,21,75.6,0.4c2.1-0.1,3.7-0.3,5.3-0.3c24.2,0,48.3,0.1,72.5-0.1c3.7,0,5.1,1.2,6.2,4.6c23.7,73.7,47.4,147.3,71.2,221c0.7,2,1.2,4.1,2.1,6.8h-5.5c-24,0-48-0.1-72,0.1c-3.9,0-5.5-1.3-6.6-4.9c-10.3-32.3-20.8-64.6-31.3-96.9c-0.4-1.2-0.9-2.4-1.7-4.5c-3.9,12.5-7.6,24-11.2,35.6c-6.9,21.9-13.8,43.8-20.5,65.8c-1.1,3.6-2.6,5-6.5,5c-24-0.2-48-0.1-72-0.1H0z" />
+      </svg>
+    </div>
+
+    <script type="application/javascript">
+      // Dogstudio Globals
+      window.Dogstudio = {
+        theme_link: "wp-content/themes/project",
+      };
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"></script>
+    <script src="./t.min.js"></script>
+    <script>
+      $("#t").t({
+        speed: 35,
+        delay: false,
+      });
+      $("#t2").t({
+        speed: 35,
+        delay: false,
+      });
+    </script>
+    <script
+      type="application/javascript"
+      src="wp-content/themes/project/static/js/modernizr.js"></script>
+    <script
+      type="application/javascript"
+      src="wp-content/themes/project/static/js/main.js"></script>
+
+    <!-- wpcom_wp_footer -->
+    <style>
+      .sd-social-icon .sd-content ul li a.sd-button > span {
+        margin-left: 0;
+      }
+    </style>
+    <script
+      defer
+      id="bilmur"
+      data-provider="wordpress.com"
+      data-service="atomic"
+      src="https://s0.wp.com/wp-content/js/bilmur.min.js?m=202329"></script>
+    <script
+      type="text/javascript"
+      src="wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-image-cdn/dist/image-cdn.js?minify=false&#038;ver=132249e245926ae3e188"
+      id="jetpack-photon-js"></script>
+    <script
+      type="text/javascript"
+      src="wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-lazy-images/dist/intersection-observer.js?minify=false&#038;ver=83ec8aa758f883d6da14"
+      id="jetpack-lazy-images-polyfill-intersectionobserver-js"></script>
+    <script type="text/javascript" id="jetpack-lazy-images-js-extra">
+      /* <![CDATA[ */
+      var jetpackLazyImagesL10n = {
+        loading_warning:
+          "Images are still loading. Please cancel your print and try again.",
+      };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-lazy-images/dist/lazy-images.js?minify=false&#038;ver=2e29137590434abf5fbe"
+      id="jetpack-lazy-images-js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="https://stats.wp.com/e-202329.js"
+      id="jetpack-stats-js"></script>
+    <script type="text/javascript" id="jetpack-stats-js-after">
+      _stq = window._stq || [];
+      _stq.push([
+        "view",
+        {
+          v: "ext",
+          blog: "180961156",
+          post: "6",
+          tz: "-5",
+          srv: "mevx.io",
+          hp: "atomic",
+          ac: "2",
+          amp: "0",
+          j: "1:12.4-a.7",
+        },
+      ]);
+      _stq.push(["clickTrackerInit", "180961156", "6"]);
+    </script>
+  </body>
+</html>

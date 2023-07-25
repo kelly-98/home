@@ -1,0 +1,20 @@
+.footer {
+  background: center url(img/footer/background/1.png) no-repeat;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    width: 50%;
+    margin-top: 80px;
+  }
+  p {
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+  @media screen and (max-width: 400px) {
+    height: 240px;
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.60288096.css",
+    "main.js": "/static/js/main.fb6f8f44.js",
+    "static/js/787.b220ace2.chunk.js": "/static/js/787.b220ace2.chunk.js",
+    "static/media/wpp.pdf": "/static/media/wpp.c74603bb87edc0e11f81.pdf",
+    "static/media/spin.png": "/static/media/spin.0319731dccd552921f5e.png",
+    "static/media/behind.png": "/static/media/behind.0ec780fd704d5e01a803.png",
+    "static/media/bottom-right.png": "/static/media/bottom-right.d6e6f73639535c44a2fb.png",
+    "static/media/utility_0001.png": "/static/media/utility_0001.f090db0238c92c83cd71.png",
+    "static/media/rw_0005.png": "/static/media/rw_0005.72e98b1d33906d11c20a.png",
+    "static/media/utility_0002.png": "/static/media/utility_0002.9812dde6163153e335f9.png",
+    "static/media/bg.png": "/static/media/bg.7f5bdc573bcaa104b868.png",
+    "static/media/utility_0000.png": "/static/media/utility_0000.eb637d75ca357f4f5983.png",
+    "static/media/ChaparralPro-Regular.otf": "/static/media/ChaparralPro-Regular.f4d1dcef2d956e1ccc31.otf",
+    "static/media/ChaparralPro-Bold.otf": "/static/media/ChaparralPro-Bold.a95fab81e0c81e12388a.otf",
+    "static/media/rw_0004.png": "/static/media/rw_0004.4a82cbc931d044dd718c.png",
+    "static/media/rw_0003.png": "/static/media/rw_0003.8f9b384339dc6d3f458f.png",
+    "static/media/bottom-left.png": "/static/media/bottom-left.13b84a788d7b57d44c8d.png",
+    "static/media/rw_0006.png": "/static/media/rw_0006.a9aae04076ed26dd78f0.png",
+    "static/media/rw_0000.png": "/static/media/rw_0000.e6ca5b63107775fdf8ec.png",
+    "static/media/rm-down.png": "/static/media/rm-down.e9a56a4ffe0a8837fe0d.png",
+    "static/media/rm-up.png": "/static/media/rm-up.8cd58b96ca39c8bc425c.png",
+    "static/media/mid.png": "/static/media/mid.4888211d0d4ee9e01f52.png",
+    "static/media/rw_0007.png": "/static/media/rw_0007.c1f2c4b2ae83f551eb43.png",
+    "static/media/HLcomicboom_Uni.ttf": "/static/media/HLcomicboom_Uni.805399e82520b201b164.ttf",
+    "static/media/rw_0001.png": "/static/media/rw_0001.931fd122c9abf9f7fe15.png",
+    "static/media/footerlogo.png": "/static/media/footerlogo.b2291d75d18385b3fa22.png",
+    "static/media/headerlogo.png": "/static/media/headerlogo.b2291d75d18385b3fa22.png",
+    "static/media/rw_0002.png": "/static/media/rw_0002.ce99d1db0fa21850eb42.png",
+    "index.html": "/index.html",
+    "main.60288096.css.map": "/static/css/main.60288096.css.map",
+    "main.fb6f8f44.js.map": "/static/js/main.fb6f8f44.js.map",
+    "787.b220ace2.chunk.js.map": "/static/js/787.b220ace2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60288096.css",
+    "static/js/main.fb6f8f44.js"
+  ]
+}

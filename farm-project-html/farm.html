@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Farm Page</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="container">
+        <div class="header">
+          <div class="header-left">
+            <div class="header-logo">
+              <img src="./images/wshib.png" alt="header-logo" />
+            </div>
+            <ul class="header-menu-list">
+              <li class="header-menu-item">
+                <a class="btn btn-primary" href="farm.html">Farm</a>
+              </li>
+              <li class="header-menu-item">
+                <a class="btn" href="./pool.html">Pool</a>
+              </li>
+            </ul>
+          </div>
+          <a class="header-right btn btn-primary btn-primary-large">
+            Connect Wallet
+          </a>
+        </div>
+        <div class="farm-page">
+          <div class="min-container">
+            <div class="box">
+              <div class="box-left">
+                <div class="box-left-content">
+                  <h4>Farms</h4>
+                  <p>Stake LP tokens to earn</p>
+                  <div class="box-left-actions">
+                    <a
+                      href="https://shibchain.app/Shibchain_WPP.pdf"
+                      target="_blank"
+                      class="box-learn-more-btn"
+                      >Learn more >></a
+                    >
+                    <a class="btn btn-primary btn-primary-large"
+                      >Connect Wallet</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="box-right">
+                <img class="box-img" src="./images/chain.png" alt="box-img" />
+              </div>
+            </div>
+            <section class="accordion">
+              <div id="accordion-1" class="accordion-header">
+                <div class="accordion-header-content">
+                  <div class="accordion-header-left">
+                    <div class="accordion-header-left-logo">
+                      <img src="./images/sc-wshib.png" alt="accordion-logo" />
+
+                      <h4>SC - WSHIB</h4>
+                    </div>
+                    <!-- Offline remove btn-primary class -->
+                    <span class="btn btn-primary">Online</span>
+                  </div>
+                  <div class="accordion-header-mid">
+                    <div class="">
+                      <h5 class="accordion-header-title">Earned</h5>
+                      <span class="accordion-header-desc"> 0 </span>
+                    </div>
+                    <div class="">
+                      <h5 class="accordion-header-title">APR</h5>
+                      <span class="accordion-header-desc"> 0 </span>
+                    </div>
+                  </div>
+                  <div class="accordion-header-right">
+                    <div class="accordion-header-right-wrapper">
+                      <h5 class="accordion-header-title">Liquidity</h5>
+                      <div class="accordion-header-desc">
+                        <span>$0000.0000</span>
+
+                        <p
+                          tooltip="Total value of the funds in this farm’s liquidity pool"
+                        >
+                          <img src="./images/mark.svg" alt="?" />
+                        </p>
+                      </div>
+                    </div>
+                    <div class="accordion-header-right-wrapper">
+                      <h5 class="accordion-header-title">Multiplier</h5>
+                      <div class="accordion-header-desc">
+                        <span>0</span>
+                        <p
+                          tooltip="The Multiplier represents the proportion of WSHIB rewards each farm receives, as a proportion of the WSHIB produced each block.
+        For example, if a 1x farm received 1 WSHIB per block, a 20x farm would receive 20 WSHIB per block. This amount is already included in all APR calculations for the farm"
+                        >
+                          <img src="./images/mark.svg" alt="?" />
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="accordion-btn">
+                  <img
+                    idAccordion="accordion-1"
+                    class="accordion-icon"
+                    src="./images/down.png"
+                    alt="accordion-arrow-down-icon"
+                  />
+                </button>
+              </div>
+              <div idAccordion="accordion-1" class="accordion-body">
+                <div class="accordion-body-wrapper">
+                  <div class="accordion-body-logo">
+                    <img src="./images/lp.png" alt="accordion-body-img" />
+                  </div>
+                  <div class="accordion-body-main">
+                    <ul class="accordion-body-links">
+                      <li class="accordion-body-link-wrapper">
+                        <a class="accordion-body-link">Get SC - WSHIB</a>
+                        <img
+                          src="./images/openlink.svg"
+                          alt="accordion-link-img"
+                        />
+                      </li>
+                      <li class="accordion-body-link-wrapper">
+                        <a class="accordion-body-link">View Contract</a>
+                        <img
+                          src="./images/openlink.svg"
+                          alt="accordion-link-img"
+                        />
+                      </li>
+                      <li class="accordion-body-link-wrapper">
+                        <a class="accordion-body-link">See Pair Info</a>
+                        <img
+                          src="./images/openlink.svg"
+                          alt="accordion-link-img"
+                        />
+                      </li>
+                    </ul>
+
+                    <div class="accordion-body-main-content">
+                      <div class="accordion-body-box">
+                        <div class="accordion-body-box-content">
+                          <div class="accordion-body-box-logo">
+                            <img
+                              src="./images/wshib.png"
+                              alt="accordion-body-box-logo"
+                            />
+                            <span class="accordion-body-box-token-earned">
+                              WSHIB EARNED
+                            </span>
+                          </div>
+                          <span class="accordion-body-box-value">
+                            0.000000000
+                          </span>
+                        </div>
+                        <div>
+                          <a
+                            id="btn-modal-harvest-1"
+                            class="btn btn-secondary btn-harvest"
+                            >Harvest</a
+                          >
+                          <div class="overlay" id="overlay-harvest-1"></div>
+                          <div class="modal" id="modal-harvest-1">
+                            <div class="modal-header">
+                              <h4 class="modal-header-title">
+                                Harvest SC tokens
+                              </h4>
+                            </div>
+                            <div class="modal-body">
+                              <form class="modal-form">
+                                <input
+                                  class="modal-form-input"
+                                  type="text"
+                                  placeholder="0000000"
+                                />
+                                <span class="modal-form-max-btn">MAX</span>
+                              </form>
+                            </div>
+                            <div class="modal-footer">
+                              <a
+                                id="close-btn-harvest-1"
+                                class="btn modal-close-btn modal-close-btn"
+                                >Cancel</a
+                              >
+                              <a class="btn btn-primary">Stake</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <a class="btn btn-primary btn-primary-large"
+                        >Enable Farm</a
+                      >
+                      <a
+                        id="btn-modal-1"
+                        class="btn btn-primary btn-primary-large"
+                        >Stake</a
+                      >
+                      <div class="overlay" id="overlay-1"></div>
+                      <div class="modal" id="modal-1">
+                        <div class="modal-header">
+                          <h4 class="modal-header-title">Stake SC tokens</h4>
+                        </div>
+                        <div class="modal-body">
+                          <form class="modal-form">
+                            <input
+                              class="modal-form-input"
+                              type="text"
+                              placeholder="0000000"
+                            />
+                            <span class="modal-form-max-btn">MAX</span>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <a
+                            id="close-btn-1"
+                            class="btn modal-close-btn modal-close-btn"
+                            >Cancel</a
+                          >
+                          <a class="btn btn-primary">Stake</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="accordion">
+              <div id="accordion-2" class="accordion-header">
+                <div class="accordion-header-content">
+                  <div class="accordion-header-left">
+                    <div class="accordion-header-left-logo">
+                      <img src="./images/wshib-sc.png" alt="accordion-logo" />
+                      <h4>WSHIB - SC</h4>
+                    </div>
+                    <!-- Offline remove btn-primary class -->
+                    <span class="btn btn-primary">Online</span>
+                  </div>
+                  <div class="accordion-header-mid">
+                    <div class="">
+                      <h5 class="accordion-header-title">Earned</h5>
+                      <span class="accordion-header-desc">0</span>
+                    </div>
+                    <div class="">
+                      <h5 class="accordion-header-title">APR</h5>
+                      <span class="accordion-header-desc">0</span>
+                    </div>
+                  </div>
+                  <div class="accordion-header-right">
+                    <div class="accordion-header-right-wrapper">
+                      <h5 class="accordion-header-title">Liquidity</h5>
+                      <div class="accordion-header-desc">
+                        <span>$0000.0000</span>
+
+                        <p
+                          tooltip="Total value of the funds in this farm’s liquidity pool"
+                        >
+                          <img src="./images/mark.svg" alt="?" />
+                        </p>
+                      </div>
+                    </div>
+                    <div class="accordion-header-right-wrapper">
+                      <h5 class="accordion-header-title">Multiplier</h5>
+                      <div class="accordion-header-desc">
+                        <span>0</span>
+                        <p
+                          tooltip="The Multiplier represents the proportion of SC rewards each farm receives, as a proportion of the SC produced each block.
+        For example, if a 1x farm received 1 SC per block, a 20x farm would receive 20 SC per block. This amount is already included in all APR calculations for the farm"
+                        >
+                          <img src="./images/mark.svg" alt="?" />
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="accordion-btn">
+                  <img
+                    idAccordion="accordion-2"
+                    class="accordion-icon"
+                    src="./images/down.png"
+                    alt="accordion-arrow-down-icon"
+                  />
+                </button>
+              </div>
+              <div idAccordion="accordion-2" class="accordion-body">
+                <div class="accordion-body-wrapper">
+                  <div class="accordion-body-logo">
+                    <img src="./images/lp.png" alt="accordion-body-img" />
+                  </div>
+                  <div class="accordion-body-main">
+                    <ul class="accordion-body-links">
+                      <li class="accordion-body-link-wrapper">
+                        <a class="accordion-body-link">Get WSHIB - SC</a>
+                        <img
+                          src="./images/openlink.svg"
+                          alt="accordion-link-img"
+                        />
+                      </li>
+                      <li class="accordion-body-link-wrapper">
+                        <a class="accordion-body-link">View Contract</a>
+                        <img
+                          src="./images/openlink.svg"
+                          alt="accordion-link-img"
+                        />
+                      </li>
+                      <li class="accordion-body-link-wrapper">
+                        <a class="accordion-body-link"> See Pair Info </a>
+                        <img
+                          src="./images/openlink.svg"
+                          alt="accordion-link-img"
+                        />
+                      </li>
+                    </ul>
+
+                    <div class="accordion-body-main-content">
+                      <div class="accordion-body-box">
+                        <div class="accordion-body-box-content">
+                          <div class="accordion-body-box-logo">
+                            <img
+                              src="./images/sc.png"
+                              alt="accordion-body-box-logo"
+                            />
+                            <span class="accordion-body-box-token-earned">
+                              SC EARNED
+                            </span>
+                          </div>
+                          <span class="accordion-body-box-value">
+                            0.000000000
+                          </span>
+                        </div>
+                        <div>
+                          <a
+                            id="btn-modal-harvest-2"
+                            class="btn btn-secondary btn-harvest"
+                            >Harvest</a
+                          >
+                          <div class="overlay" id="overlay-harvest-2"></div>
+                          <div class="modal" id="modal-harvest-2">
+                            <div class="modal-header">
+                              <h4 class="modal-header-title">
+                                Harvest WSHIB tokens
+                              </h4>
+                            </div>
+                            <div class="modal-body">
+                              <form class="modal-form">
+                                <input
+                                  class="modal-form-input"
+                                  type="text"
+                                  placeholder="0000000"
+                                />
+                                <span class="modal-form-max-btn">MAX</span>
+                              </form>
+                            </div>
+                            <div class="modal-footer">
+                              <a
+                                id="close-btn-harvest-2"
+                                class="btn modal-close-btn modal-close-btn"
+                                >Cancel</a
+                              >
+                              <a class="btn btn-primary">Stake</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <a class="btn btn-primary btn-primary-large"
+                        >Enable Farm</a
+                      >
+                      <a
+                        id="btn-modal-2"
+                        class="btn btn-primary btn-primary-large"
+                        >Stake</a
+                      >
+                      <div class="overlay" id="overlay-2"></div>
+                      <div class="modal" id="modal-2">
+                        <div class="modal-header">
+                          <h4 class="modal-header-title">Stake WSHIB tokens</h4>
+                        </div>
+                        <div class="modal-body">
+                          <form class="modal-form">
+                            <input
+                              class="modal-form-input"
+                              type="text"
+                              placeholder="0000000"
+                            />
+                            <span class="modal-form-max-btn">MAX</span>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <a
+                            id="close-btn-2"
+                            class="btn modal-close-btn modal-close-btn"
+                            >Cancel</a
+                          >
+                          <a class="btn btn-primary">Stake</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+      <ul class="app-bg-img-list">
+        <li class="app-bg-img-item">
+          <img
+            class="app-bg-top-left"
+            src="./images/bg-top-left.png"
+            alt="bg-top-left"
+          />
+        </li>
+        <li class="app-bg-img-item">
+          <img
+            class="app-bg-top-left-2"
+            src="./images/bg-top-left-2.png"
+            alt="bg-top-left-2"
+          />
+        </li>
+        <li class="app-bg-img-item">
+          <img
+            class="app-bg-top-left-3"
+            src="./images/image_114.png"
+            alt="bg-top-left-3"
+          />
+        </li>
+        <li class="app-bg-img-item">
+          <img
+            class="app-bg-top-right"
+            src="./images/bg-top-right.png"
+            alt="bg-top-right"
+          />
+        </li>
+        <li class="app-bg-img-item">
+          <img
+            class="app-bg-top-right-2"
+            src="./images/image_111.png"
+            alt="bg-top-right-2"
+          />
+        </li>
+        <li class="app-bg-img-item">
+          <img
+            class="app-bg-bottom-right"
+            src="./images/bg-bottom-right.png"
+            alt="bg-bottom-right"
+          />
+        </li>
+        <li class="app-bg-img-item">
+          <img
+            class="app-bg-bottom-left"
+            src="./images/bg-bottom-left.png"
+            alt="bg-bottom-left"
+          />
+        </li>
+      </ul>
+    </div>
+    <script>
+      const accordionHeaders = document.querySelectorAll(".accordion-header");
+      accordionHeaders.forEach((item) => {
+        item.onclick = function () {
+          const accordionBody = document.querySelector(
+            `div[idAccordion=${item.id}]`
+          );
+          const accordionIconBody = document.querySelector(
+            `img[idAccordion=${item.id}]`
+          );
+          accordionBody.classList.toggle("accordion-body-active");
+          accordionIconBody.classList.toggle("accordion-icon-active");
+        };
+      });
+
+      // Modal Farm 1
+      document
+        .getElementById("btn-modal-1")
+        .addEventListener("click", function () {
+          document.getElementById("overlay-1").classList.add("is-visible");
+          document.getElementById("modal-1").classList.add("is-visible");
+        });
+
+      document
+        .getElementById("close-btn-1")
+        .addEventListener("click", function () {
+          document.getElementById("overlay-1").classList.remove("is-visible");
+          document.getElementById("modal-1").classList.remove("is-visible");
+        });
+      document
+        .getElementById("overlay-1")
+        .addEventListener("click", function () {
+          document.getElementById("overlay-1").classList.remove("is-visible");
+          document.getElementById("modal-1").classList.remove("is-visible");
+        });
+
+      // Modal Farm 2
+      document
+        .getElementById("btn-modal-2")
+        .addEventListener("click", function () {
+          document.getElementById("overlay-2").classList.add("is-visible");
+          document.getElementById("modal-2").classList.add("is-visible");
+        });
+
+      document
+        .getElementById("close-btn-2")
+        .addEventListener("click", function () {
+          document.getElementById("overlay-2").classList.remove("is-visible");
+          document.getElementById("modal-2").classList.remove("is-visible");
+        });
+      document
+        .getElementById("overlay-2")
+        .addEventListener("click", function () {
+          document.getElementById("overlay-2").classList.remove("is-visible");
+          document.getElementById("modal-2").classList.remove("is-visible");
+        });
+
+      // Modal Farm Harvest 1
+      document
+        .getElementById("btn-modal-harvest-1")
+        .addEventListener("click", function () {
+          document
+            .getElementById("overlay-harvest-1")
+            .classList.add("is-visible");
+          document
+            .getElementById("modal-harvest-1")
+            .classList.add("is-visible");
+        });
+
+      document
+        .getElementById("close-btn-harvest-1")
+        .addEventListener("click", function () {
+          document
+            .getElementById("overlay-harvest-1")
+            .classList.remove("is-visible");
+          document
+            .getElementById("modal-harvest-1")
+            .classList.remove("is-visible");
+        });
+      document
+        .getElementById("overlay-harvest-1")
+        .addEventListener("click", function () {
+          document
+            .getElementById("overlay-harvest-1")
+            .classList.remove("is-visible");
+          document
+            .getElementById("modal-harvest-1")
+            .classList.remove("is-visible");
+        });
+
+      // Modal Farm Harvest 2
+      document
+        .getElementById("btn-modal-harvest-2")
+        .addEventListener("click", function () {
+          document
+            .getElementById("overlay-harvest-2")
+            .classList.add("is-visible");
+          document
+            .getElementById("modal-harvest-2")
+            .classList.add("is-visible");
+        });
+
+      document
+        .getElementById("close-btn-harvest-2")
+        .addEventListener("click", function () {
+          document
+            .getElementById("overlay-harvest-2")
+            .classList.remove("is-visible");
+          document
+            .getElementById("modal-harvest-2")
+            .classList.remove("is-visible");
+        });
+      document
+        .getElementById("overlay-harvest-2")
+        .addEventListener("click", function () {
+          document
+            .getElementById("overlay-harvest-2")
+            .classList.remove("is-visible");
+          document
+            .getElementById("modal-harvest-2")
+            .classList.remove("is-visible");
+        });
+    </script>
+  </body>
+</html>
